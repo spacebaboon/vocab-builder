@@ -36,7 +36,7 @@
 
     <!-- HEADER AND WORD COUNT -->
     <div class="jumbotron text-center">
-        <h1>Words <span class="label label-info">{{ words.length }}</span></h1>
+        <h1>Words <span id="word-count" class="label label-info">{{ words.length }}</span></h1>
     </div>
 
     <!-- WORD LIST -->
@@ -51,8 +51,8 @@
             </thead>
             <!-- LOOP OVER THE WORDS IN $scope.words -->
             <tr ng-repeat="word in words">
-                <td>{{ word.english }}</td>
-                <td>{{ word.german }}</td>
+                <td id="english">{{ word.english }}</td>
+                <td id="german">{{ word.german }}</td>
                 <td><input type="checkbox" ng-click="deleteWord(word._id)"/></td>
         </table>
     </div>
@@ -68,11 +68,11 @@
                 <input type="text" class="form-control input-lg text-center" placeholder="English"
                        ng-model="formData.english">
                 <input type="text" class="form-control input-lg text-center" placeholder="German"
-                       ng-model="formData.german">
+                       ng-model="formData.german">  
             </div>
 
             <!-- createWoRd() WILL CREATE NEW WORDS -->
-            <button type="submit" class="btn btn-primary btn-lg" ng-click="createWord()">Add</button>
+            <button type="submit" class="btn btn-primary btn-lg" id="add-button" ng-click="createWord()">Add</button>
         </form>
     </div>
 </div>
