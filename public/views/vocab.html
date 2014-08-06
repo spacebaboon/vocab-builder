@@ -1,0 +1,46 @@
+<div ng-controller="VocabController">
+    <div class="container">
+        <!-- HEADER AND WORD COUNT -->
+        <div class="jumbotron text-center">
+            <h1>Words <span id="word-count" class="label label-info">{{ words.length }}</span></h1>
+        </div>
+
+        <!-- WORD LIST -->
+        <div id="word-list" class="row">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>English</th>
+                    <th>German</th>
+                    <th>delete</th>
+                </tr>
+                </thead>
+                <!-- LOOP OVER THE WORDS IN $scope.words -->
+                <tr ng-repeat="word in words">
+                    <td id="english">{{ word.english }}</td>
+                    <td id="german">{{ word.german }}</td>
+                    <td><input type="checkbox" ng-click="deleteWord(word._id)"/></td>
+            </table>
+        </div>
+    </div>
+
+    <!-- FORM TO CREATE WORDS -->
+    <div id="word-form" class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+            <form>
+                <div class="form-group">
+
+                    <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
+                    <input type="text" class="form-control input-lg text-center" placeholder="English"
+                           ng-model="formData.english">
+                    <input type="text" class="form-control input-lg text-center" placeholder="German"
+                           ng-model="formData.german">
+                </div>
+
+                <!-- createWoRd() WILL CREATE NEW WORDS -->
+                <button type="submit" class="btn btn-primary btn-lg" id="add-button" ng-click="createWord()">Add
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
