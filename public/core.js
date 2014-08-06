@@ -13,7 +13,15 @@ angular.module('vocabApp', ['ngRoute']).
             .otherwise({
                 redirectTo: '/'
             });
-    }]);
+    }])
+    .directive('tabbedNavigation', function() {
+        return {
+            restrict: 'E',
+            templateUrl: 'views/tabbedNavigation.html',
+            replace: true,
+            scope: { tab: "@tab"}
+        };
+    });
 
 function VocabController($scope, $http) {
     $scope.formData = {};

@@ -1,4 +1,4 @@
-describe('E2E: main page', function () {
+describe('E2E: edit vocab page', function () {
     var ptor;
     var englishWord = 'irregularword';
     var germanWord = 'das Unregelmässigewort';
@@ -18,6 +18,12 @@ describe('E2E: main page', function () {
     it('should load the word list by default', function () {
         var ele = by.id('word-count');
         expect(ptor.isElementPresent(ele)).toBe(true);
+    });
+
+    it('should show the revise tab as active', function () {
+        $('#navigation .active').getText().then(function(text) {
+            expect(text).toBe('vocabulary');
+        })
     });
 
     it('should count and correctly display the number of words in the list', function () {
