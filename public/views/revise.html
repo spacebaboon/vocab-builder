@@ -2,7 +2,27 @@
 
     <tabbed-navigation tab="revise"></tabbed-navigation>
 
+    <div class="container">
 
-    {{ message }}
+        <div class="jumbotron text-container">
+            <h1>Words revised <span id="revisedWordCount" class="label label-info">{{ revisedCount }}</span></h1>
+        </div>
+
+        <div id="word-list" class="row">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>English</th>
+                    <th>German</th>
+                </tr>
+                </thead>
+                <tr ng-repeat="word in words | limitTo: 1">
+                    <td id="english">{{ word.english }}</td>
+                    <td id="german" reveal-word=word.german></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
 
 </div>

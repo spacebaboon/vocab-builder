@@ -21,19 +21,30 @@
             margin-bottom: 30px;
         }
 
-        #navigation div {
-            background-color: #999999;
+        #navigation {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
         }
 
-        #navigation div.active {
+        #navigation span {
+            background-color: #eee;
+        }
+
+        #navigation span.active {
             background-color: #ffffff;
         }
+
 
     </style>
 
     <script src="/libs/angular/angular.js"></script>
     <script src="/libs/angular-route/angular-route.js"></script>
-    <script src="core.js"></script>
+    <script src="/scripts/main.js"></script>
+    <script src="/scripts/controllers/vocab.js"></script>
+    <script src="/scripts/controllers/revise.js"></script>
+    <script src="/scripts/directives/tabbedNavigation.js"></script>
+    <script src="/scripts/directives/revealWord.js"></script>
 
 </head>
 <body>

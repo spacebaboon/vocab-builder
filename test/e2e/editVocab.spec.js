@@ -1,3 +1,5 @@
+'use strict'
+
 describe('E2E: edit vocab page', function () {
     var ptor;
     var englishWord = 'irregularword';

@@ -1,4 +1,14 @@
-<div id="navigation">
-    <div ng-class="{active: tab == 'vocabulary'}">vocabulary</div>
-    <div ng-class="{active: tab == 'revise'}">revise</div>
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+    <ul class="nav navbar-nav">
+        <div class="container" ng-switch on="tab">
+            <li ng-switch-when="vocabulary">
+                <span class="navbar-brand active">vocabulary</span>
+                <a href="/#/revise"><span class="navbar-brand">revise</span></a>
+            </li>
+            <li ng-switch-when="revise">
+                <a href="/"><span class="navbar-brand">vocabulary</span></a>
+                <span class="navbar-brand active">revise</span>
+            </li>
+        </div>
+    </ul>
 </div>
