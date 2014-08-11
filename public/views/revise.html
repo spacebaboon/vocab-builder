@@ -18,7 +18,7 @@
                 </thead>
                 <tr ng-repeat="word in words | limitTo: 1">
                     <td id="english">{{ word.english }}</td>
-                    <td id="german" reveal-word=word.german></td>
+                    <td id="german"><reveal-word word="{{word.german}}"></reveal-word></td>
                 </tr>
             </table>
         </div>

@@ -1,3 +1,5 @@
+<!doctype html>
+
 <html ng-app="vocabApp">
 <head>
     <!-- META -->
@@ -34,8 +36,6 @@
         #navigation span.active {
             background-color: #ffffff;
         }
-
-
     </style>
 
     <script src="/libs/angular/angular.js"></script>
@@ -45,11 +45,10 @@
     <script src="/scripts/controllers/revise.js"></script>
     <script src="/scripts/directives/tabbedNavigation.js"></script>
     <script src="/scripts/directives/revealWord.js"></script>
+    <script src="/scripts/services/genericServices.js"></script>
 
 </head>
-<body>
-<div class="content">
+<body class="content">
     <div ng-view></div>
-</div>
 </body>
 </html>

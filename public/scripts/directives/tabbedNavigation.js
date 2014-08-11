@@ -1,7 +1,7 @@
-'use strict'
+'use strict';
 
 angular.module('vocabApp')
-    .directive('tabbedNavigation', function () {
+    .directive('tabbedNavigation', function() {
         return {
             restrict: 'E',
             templateUrl: '../views/tabbedNavigation.html',

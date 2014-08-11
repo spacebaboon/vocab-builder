@@ -4,8 +4,11 @@ angular.module('vocabApp')
     .directive('revealWord', function () {
         return {
             restrict: 'E',
-            templateUrl: '../views/revealWord.html',
+            templateUrl: '/views/revealWord.html',
             replace: true,
-            scope: { tab: "@tab"}
+            scope: {
+                fullWord: '@word'
+            },
+            controller: 'ReviseController'
         };
     })

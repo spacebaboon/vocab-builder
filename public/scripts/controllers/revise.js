@@ -1,11 +1,12 @@
-'use strict'
+'use strict';
 
 angular.module('vocabApp')
-    .controller('ReviseController', function ($scope, $http) {
+    .controller('ReviseController', function ($scope, $http, genericServices) {
 
         $http.get('/api/words')
             .success(function (data) {
-                $scope.words = randomise(data);
+                $scope.words = genericServices.randomise(data);
+//                $scope.words = data;
                 console.log(data);
             })
             .error(function (data) {
@@ -13,13 +14,10 @@ angular.module('vocabApp')
             });
 
 
-        function randomise(array) {
-            for (var i = 0; i < array.length; i++) {
-                var randomIndex = Math.floor(Math.random() * array.length);
-                var a = array[i];
-                array[i] = array[randomIndex];
-                array[randomIndex] = a;
-            }
-            return array;
-        };
-    })
+        $scope.showWord = function(word) {
+            $scope.revealedWord = word;
+        }
+        $scope.showHint = function showHint(fullWord, revealedWord) {
+
+        }
+    });

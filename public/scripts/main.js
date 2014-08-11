@@ -1,7 +1,7 @@
-'use strict'
+'use strict';
 
-angular.module('vocabApp', ['ngRoute']).
-    config(['$routeProvider', function ($routeProvider) {
+angular.module('vocabApp', ['ngRoute'])
+    .config(['$routeProvider', function ($routeProvider) {
         $routeProvider
             .when('/', {
                 templateUrl: '../views/vocab.html',
