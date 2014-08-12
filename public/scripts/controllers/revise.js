@@ -1,11 +1,11 @@
 'use strict';
 
 angular.module('vocabApp')
-    .controller('ReviseController', function ($scope, $http, genericServices) {
+    .controller('ReviseController', function ($scope, $http, genericService) {
 
         $http.get('/api/words')
             .success(function (data) {
-                $scope.words = genericServices.randomise(data);
+                $scope.words = genericService.randomise(data);
 //                $scope.words = data;
                 console.log(data);
             })
@@ -17,7 +17,8 @@ angular.module('vocabApp')
         $scope.showWord = function(word) {
             $scope.revealedWord = word;
         }
-        $scope.showHint = function showHint(fullWord, revealedWord) {
 
+        $scope.showHint = function showHint(word, currentSize) {
+            $scope.revealedWord = genericService.hint(word, currentSize || 0);
         }
     });

@@ -2,38 +2,41 @@
 
 describe('Controller: VocabController', function () {
 
-    beforeEach(module('vocabApp'));
+    var vocabController, scope, httpMock;
 
-    var VocabController, scope, httpMock;
+    beforeEach(function () {
+        module('vocabApp');
 
-    beforeEach(inject(function ($controller, $rootScope, $httpBackend) {
-        httpMock = $httpBackend;
+        inject(function ($controller, $rootScope, $httpBackend, genericService) {
+            httpMock = $httpBackend;
 
+            scope = $rootScope.$new();
+            httpMock.when('GET', '/api/words').respond('[{"english": "hello", "german": "hallo"}, {"english": "goodbye", "german": "auf wiedersehen"}]');
 
-        scope = $rootScope.$new();
-        httpMock.when('GET', '/api/words').respond("{}");
+            vocabController = $controller('ReviseController', {
+                $scope: scope,
+                genericService: genericService
+            });
 
-
-        VocabController = $controller('VocabController', {
-            $scope: scope
         });
-    }));
+    });
+
 
     it('gets the list of words and puts it into the scope', function () {
         httpMock.expectGET('/api/words');
         httpMock.flush();
-        expect(scope.words).toMatch("some data");
+        expect(scope.words.length).toBe(2);
     })
 
-    it('should show hints of a word, letter by letter', function () {
-        VocabController.showHint('somelongword', '');
-        expect(scope.revealedWord).toBe('s');
+    it('should display whole word', function () {
+        scope.showWord('something');
+        expect(scope.revealedWord).toBe('something');
     });
 
+    it('should show hints of a word, letter by letter', function () {
+        scope.showHint('Word', 0);
+        expect(scope.revealedWord).toBe('W');
+    });
 
-//    it('should randomise arrays', function () {
-//        var arrayInput = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//        var randomised1;
-//    })
 
 });

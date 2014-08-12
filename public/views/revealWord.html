@@ -4,6 +4,6 @@
     </span>
     <span id="buttons" ng-hide="revealedWord == fullWord">
         <button ng-click="showWord(fullWord)">show</button>
-        <button ng-click="showHint(revealedWord, fullWord)">hint</button>
+        <button ng-click="showHint(fullWord, revealedWord.length)">hint</button>
     </span>
 </div>
