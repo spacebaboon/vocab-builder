@@ -4,11 +4,11 @@ angular.module('vocabApp', ['ngRoute'])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider
             .when('/', {
-                templateUrl: '../views/vocab.html',
+                templateUrl: '../views/partials/vocab.html',
                 controller: 'VocabController'
             })
             .when('/revise', {
-                templateUrl: '../views/revise.html',
+                templateUrl: '../views/partials/revise.html',
                 controller: 'ReviseController'
             })
             .otherwise({

@@ -1,0 +1,38 @@
+<div>
+
+    <tabbed-navigation tab="revise"></tabbed-navigation>
+
+    <div class="container">
+
+        <div class="jumbotron text-container">
+            <h1>Words revised <span id="revisedWordCount" class="label label-info">{{ revisedWordCount - 1}} / {{ words.length }}</span></h1>
+        </div>
+
+        <div id="word-list" class="row">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>English</th>
+                    <th>German</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tr ng-repeat="word in words | limitTo: revisedWordCount">
+                    <td id="english">{{ word.english }}</td>
+                    <td id="german">{{ isCurrent($index) ? revealedWord : word.german}}</td>
+                    <td id="buttons" ng-show="isCurrent($index)" class="revise-buttons">
+                        <span ng-hide="revealedWord == word.german">
+                            <button ng-click="showWord(word.german)">show</button>
+                            <button ng-click="showHint(word.german, revealedWord.length)">hint</button>
+                        </span>
+                        <span ng-show="revealedWord == word.german">
+                            <button ng-click="showNextWord()">next</button>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</div>

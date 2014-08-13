@@ -5,20 +5,29 @@ angular.module('vocabApp')
 
         $http.get('/api/words')
             .success(function (data) {
-                $scope.words = genericService.randomise(data);
-//                $scope.words = data;
-                console.log(data);
+                $scope.words = genericService.shuffle(data);
             })
             .error(function (data) {
                 console.log('Error: ' + data);
             });
 
+        $scope.revisedWordCount = 1;
 
-        $scope.showWord = function(word) {
+
+        $scope.isCurrent = function (index) {
+            return $scope.revisedWordCount === index + 1;
+        };
+
+        $scope.showWord = function (word) {
             $scope.revealedWord = word;
         }
 
-        $scope.showHint = function showHint(word, currentSize) {
+        $scope.showHint = function (word, currentSize) {
             $scope.revealedWord = genericService.hint(word, currentSize || 0);
         }
+
+        $scope.showNextWord = function () {
+            $scope.revealedWord = "";
+            $scope.revisedWordCount++;
+        };
     });

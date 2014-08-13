@@ -13,18 +13,31 @@ describe('Service: genericService', function () {
         });
     });
 
-    it('should have the randomise function', function () {
-        expect(angular.isFunction(genericService.randomise)).toBe(true);
+    it('should have the shuffle function', function () {
+        expect(angular.isFunction(genericService.shuffle)).toBe(true);
     });
 
-    it('should randomise an array', function () {
+    it('should shuffle an array', function () {
 
-        var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-        var randomisedArray = genericService.randomise(array);
+        var array = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
+        var randomisedArray = genericService.shuffle(array);
         expect(randomisedArray).not.toBe(array);
+
+        // make sure we only have one of every element
+        var numberCounts = {};
+        randomisedArray.forEach(function (x) {
+            numberCounts[x] = 0;
+        });
+        for (var i = 0; i < randomisedArray.length; i++) {
+            var key = randomisedArray[i];
+            numberCounts[key]++;
+        }
+        for (var key in numberCounts) {
+            expect(numberCounts[key]).toBe(1);
+        }
     });
 
-    it('should hint successive letters of a word', function() {
+    it('should hint successive letters of a word', function () {
 
         var word = 'Jaegerschnitzel';
         var currentSize = 0;
@@ -33,12 +46,12 @@ describe('Service: genericService', function () {
         expect(genericService.hint(word, currentSize + 5)).toBe('Jaeger');
     });
 
-    it('should skip spaces if present', function() {
+    it('should skip spaces if present', function () {
         var word = 'eins zwei drei';
         expect(genericService.hint(word, 4)).toBe('eins z');
     });
 
-    it('should hint the full article if present', function() {
+    it('should hint the full article if present', function () {
         expect(genericService.hint('der Affe', 0)).toBe('der A');
         expect(genericService.hint('die Katze', 0)).toBe('die K');
         expect(genericService.hint('das Bier', 0)).toBe('das B');

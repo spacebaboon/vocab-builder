@@ -3,13 +3,15 @@ angular.module('vocabApp')
     .factory("genericService", function () {
         return {
 
-            randomise: function (array) {
-                var newArray = [];
-                for (var i = 0; i < array.length; i++) {
-                    var randomIndex = Math.floor(Math.random() * array.length);
-                    var a = array[i];
-                    newArray[i] = array[randomIndex];
-                    newArray[randomIndex] = a;
+            shuffle: function (array) {
+                console.log("shuffle called at " + Date.now());
+                var newArray = [].concat(array);
+                for (var i = 0; i < newArray.length; i++) {
+                    var randomIndex = Math.floor(Math.random() * newArray.length);
+                    var tmp = newArray[i];
+                    newArray[i] = newArray[randomIndex];
+                    newArray[randomIndex] = tmp;
+                    console.log("swapping " + i + " and " + randomIndex);
                 }
                 return newArray;
             },

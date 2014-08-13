@@ -4,7 +4,7 @@ angular.module('vocabApp')
     .directive('tabbedNavigation', function() {
         return {
             restrict: 'E',
-            templateUrl: '../views/tabbedNavigation.html',
+            templateUrl: '../views/directives/tabbedNavigation.html',
             replace: true,
             scope: { tab: "@tab"}
         };
