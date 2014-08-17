@@ -58,4 +58,9 @@ describe('Service: genericService', function () {
         expect(genericService.hint('das Bier', 7)).toBe('das Bier');
     });
 
+    it('should hint the English infinitive form if a verb', function(){
+        expect(genericService.hint('to run', 0)).toBe('to r');
+        expect(genericService.hint('to run', 4)).toBe('to ru');
+    });
+
 });

@@ -28,9 +28,10 @@ describe('Controller: VocabController', function () {
         expect(scope.words.length).toBe(2);
     })
 
-    it('should display whole word', function () {
+    it('should move onto next word when show clicked', function () {
+        var currentCount = scope.revisedWordCount;
         scope.showWord('something');
-        expect(scope.revealedWord).toBe('something');
+        expect(scope.revisedWordCount).toBe(currentCount + 1);
     });
 
     it('should show hints of a word, letter by letter', function () {

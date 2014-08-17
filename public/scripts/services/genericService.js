@@ -22,6 +22,8 @@ angular.module('vocabApp')
                     return word.substring(0, currentSize + 2);
                 } else if (currentSize < 4 && word.match('^(der|die|das)')) {
                     return word.substr(0, 5);
+                } else if (currentSize < 3 && word.match('^to ')) {
+                    return word.substr(0, 4);
                 }
                 return hintedWord;
             }

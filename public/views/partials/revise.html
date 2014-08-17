@@ -9,24 +9,24 @@
         </div>
 
         <div id="word-list" class="row">
+
+            <span>{{ lang_left }} - {{ lang_right }}</span><span><button ng-click="switchLanguage()">switch</button></span>
+
             <table class="table table-striped">
                 <thead>
                 <tr>
-                    <th>English</th>
-                    <th>German</th>
+                    <th>{{ lang_left }}</th>
+                    <th>{{ lang_right }}</th>
                     <th></th>
                 </tr>
                 </thead>
                 <tr ng-repeat="word in words | limitTo: revisedWordCount">
-                    <td id="english">{{ word.english }}</td>
-                    <td id="german">{{ isCurrent($index) ? revealedWord : word.german}}</td>
+                    <td id="left">{{ word[lang_left] }}</td>
+                    <td id="right">{{ (isCurrent($index) && !wordComplete) ? revealedWord : word[lang_right] }}</td>
                     <td id="buttons" ng-show="isCurrent($index)" class="revise-buttons">
-                        <span ng-hide="revealedWord == word.german">
-                            <button ng-click="showWord(word.german)">show</button>
-                            <button ng-click="showHint(word.german, revealedWord.length)">hint</button>
-                        </span>
-                        <span ng-show="revealedWord == word.german">
-                            <button ng-click="showNextWord()">next</button>
+                        <span ng-show="isCurrent($index)">
+                            <button ng-click="showWord(word[lang_right])">show</button>
+                            <button ng-click="showHint(word[lang_right], revealedWord.length)">hint</button>
                         </span>
                     </td>
                 </tr>

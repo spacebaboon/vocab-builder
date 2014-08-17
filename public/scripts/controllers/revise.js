@@ -12,7 +12,8 @@ angular.module('vocabApp')
             });
 
         $scope.revisedWordCount = 1;
-
+        $scope.lang_left = 'german';
+        $scope.lang_right = 'english';
 
         $scope.isCurrent = function (index) {
             return $scope.revisedWordCount === index + 1;
@@ -20,14 +21,26 @@ angular.module('vocabApp')
 
         $scope.showWord = function (word) {
             $scope.revealedWord = word;
+            showNextWord();
         }
 
         $scope.showHint = function (word, currentSize) {
             $scope.revealedWord = genericService.hint(word, currentSize || 0);
+            if ($scope.revealedWord == word) {
+                $scope.revisedWordCount++;
+                showNextWord();
+            }
         }
+        $scope.switchLanguage = function () {
+            var tmpLang = $scope.lang_left;
+            $scope.lang_left = $scope.lang_right;
+            $scope.lang_right = tmpLang;
+            $scope.revealedWord = "";
+        };
 
-        $scope.showNextWord = function () {
+        var showNextWord = function () {
             $scope.revealedWord = "";
             $scope.revisedWordCount++;
         };
+
     });
