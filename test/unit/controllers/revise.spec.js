@@ -1,20 +1,21 @@
 'use strict';
 
-ddescribe('Controller: VocabController', function () {
+describe('Controller: VocabController', function () {
 
-    var vocabController, scope, httpMock;
+    var vocabController, scope, httpMock, timeout;
 
     beforeEach(function () {
         module('vocabApp');
 
-        inject(function ($controller, $rootScope, $httpBackend, genericService) {
+        inject(function ($controller, $rootScope, $httpBackend, $timeout, genericService) {
             httpMock = $httpBackend;
-
+            timeout = $timeout;
             scope = $rootScope.$new();
             httpMock.when('GET', '/api/words').respond('[{"english": "hello", "german": "hallo"}, {"english": "goodbye", "german": "auf wiedersehen"}, {"english": "something", "german": "etwas"}]');
 
             vocabController = $controller('ReviseController', {
                 $scope: scope,
+                $timeout: timeout,
                 genericService: genericService
             });
 
@@ -22,16 +23,14 @@ ddescribe('Controller: VocabController', function () {
     });
 
 
-    it('gets the list of words and puts it into the scope', function () {
-        httpMock.expectGET('/api/words');
-        httpMock.flush();
-        expect(scope.words.length).toBe(3);
-    })
 
     it('should move onto next word when show clicked', function () {
-        var currentCount = scope.revisedWordCount;
+        httpMock.expectGET('/api/words');
+        httpMock.flush();
+        var currentCount = scope.index;
         scope.showWord('something');
-        expect(scope.revisedWordCount).toBe(currentCount + 1);
+        timeout.flush();
+        expect(scope.index).toBe(currentCount + 1);
     });
 
     it('should show hints of a word, letter by letter', function () {
@@ -40,9 +39,12 @@ ddescribe('Controller: VocabController', function () {
     });
 
     it('should move onto next word when the final letter is hinted', function() {
-        var currentCount = scope.revisedWordCount;
+        httpMock.expectGET('/api/words');
+        httpMock.flush();
+        var currentCount = scope.index;
         scope.showHint('Knoblauch', 8);
-        expect(scope.revisedWordCount).toBe(currentCount + 1);
+        timeout.flush();
+        expect(scope.index).toBe(currentCount + 1);
     });
 
 

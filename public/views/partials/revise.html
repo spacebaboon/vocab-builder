@@ -1,36 +1,41 @@
 <div>
 
-    <tabbed-navigation tab="revise"></tabbed-navigation>
+    <div id="top" class="container">
 
-    <div class="container">
-
-        <div class="jumbotron text-container">
-            <h1>Words revised <span id="revisedWordCount" class="label label-info">{{ revisedWordCount - 1}} / {{ words.length }}</span></h1>
+        <div id="revise-header" class="row centred">
+            <div class="col-lg-4">
+                <h2><span id="revised-word-count">{{ index }} / {{ totalWords }}</span> words revised </h2>
+            </div>
+            <div class="col-lg-4">
+                <a ng-click="switchLanguage()"><h2>{{ lang_left }} - {{ lang_right }}</h2></a>
+            </div>
+            <div class="col-lg-2">
+                <a href="/"><h2>vocab</h2></a>
+            </div>
         </div>
 
-        <div id="word-list" class="row">
+        <div id="word-form" class="row centred">
+            <div id="word-left" class="col-lg-4">
+                <div class="display-word">{{ word[lang_left] }}</div>
+            </div>
+            <div id="word-right" class="col-lg-4">
+                <div class="display-word">{{ revealedWord }}&nbsp;</div>
+            </div>
+            <div id="buttons" class="col-lg-2 revise-buttons">
+                <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
+                <button class="btn btn-info" ng-click="showHint(word[lang_right], revealedWord.length)" ng-disabled="blockButtons">hint</button>
+            </div>
+        </div>
 
-            <span>{{ lang_left }} - {{ lang_right }}</span><span><button ng-click="switchLanguage()">switch</button></span>
+    </div>
 
-            <table class="table table-striped">
-                <thead>
-                <tr>
-                    <th>{{ lang_left }}</th>
-                    <th>{{ lang_right }}</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tr ng-repeat="word in words | limitTo: revisedWordCount">
-                    <td id="left">{{ word[lang_left] }}</td>
-                    <td id="right">{{ (isCurrent($index) && !wordComplete) ? revealedWord : word[lang_right] }}</td>
-                    <td id="buttons" ng-show="isCurrent($index)" class="revise-buttons">
-                        <span ng-show="isCurrent($index)">
-                            <button ng-click="showWord(word[lang_right])">show</button>
-                            <button ng-click="showHint(word[lang_right], revealedWord.length)">hint</button>
-                        </span>
-                    </td>
-                </tr>
-            </table>
+
+    <div id="bottom" class="container">
+
+        <div id="word-list" class="row centred" ng-repeat="word in revealedWords">
+            <div class="col-lg-4">{{ word[lang_left] }}</div>
+            <div class="col-lg-4">{{ word[lang_right] }}</div>
+            <div class="col-lg-2"/>
         </div>
 
     </div>

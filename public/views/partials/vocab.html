@@ -1,44 +1,43 @@
-<div ng-controller="VocabController">
+<div>
 
-    <tabbed-navigation tab="vocabulary"></tabbed-navigation>
+    <div id="top" class="container">
 
-    <div class="container">
-        <!-- HEADER AND WORD COUNT -->
-        <div class="jumbotron text-center">
-            <h1>Words <span id="word-count" class="label label-info">{{ words.length }}</span></h1>
+        <div id="revise-header" class="row centred">
+            <div class="col-lg-4">
+                <h2><span id="word-count">{{ words.length }}</span> Words</h2>
+            </div>
+            <div class="col-lg-4">
+                <a href="/#/revise"><h2>revise</h2></a>
+            </div>
         </div>
 
         <!-- FORM TO CREATE WORDS -->
-        <div id="word-form" class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-                <form>
-                    <div class="form-group">
-                        <span>
-                            <input type="text" class="form-control input-lg text-center" placeholder="German" ng-model="formData.german">
-                            <input type="text" class="form-control input-lg text-center" placeholder="English" ng-model="formData.english">
-                            <button type="submit" class="btn btn-primary btn-lg" id="add-button" ng-click="createWord()">Add</button>
-                        </span>
-                    </div>
-                </form>
-            </div>
+        <div id="word-form" class="row centred">
+            <form>
+                <div class="col-lg-4">
+                    <input type="text" class="display-word input-word input-lg text-center" placeholder="German" ng-model="formData.german">
+                </div>
+                <div class="col-lg-4">
+                    <input type="text" class="display-word input-word input-lg text-center" placeholder="English" ng-model="formData.english">
+                </div>
+                <div class="col-lg-2">
+                    <button type="submit" class="btn btn-success" id="add-button" ng-click="createWord()">Add</button>
+                </div>
+            </form>
         </div>
+
+    </div>
+
+
+    <div id="bottom" class="container">
+
         <!-- WORD LIST -->
-        <div id="word-list" class="row">
-            <table class="table table-striped">
-                <thead>
-                <tr>
-                    <th>German</th>
-                    <th>English</th>
-                    <th>delete</th>
-                </tr>
-                </thead>
-                <!-- LOOP OVER THE WORDS IN $scope.words -->
-                <tr ng-repeat="word in words">
-                    <td id="german">{{ word.german }}</td>
-                    <td id="english">{{ word.english }}</td>
-                    <td><input type="checkbox" ng-click="deleteWord(word._id)"/></td>
-            </table>
+        <div id="word-list" class="row centred" ng-repeat="word in words | orderBy:'_id':true">
+            <div class="col-lg-4" id="german">{{ word.german }}</div>
+            <div class="col-lg-4" id="english">{{ word.english }}</div>
+            <div class="col-lg-2"><a ng-click="deleteWord(word._id)" class="left-link">delete</a></div>
         </div>
+
     </div>
 
 </div>

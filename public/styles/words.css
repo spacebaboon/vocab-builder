@@ -1,0 +1,65 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    padding-top: 50px;
+}
+
+#word-list {
+    margin-bottom: 30px;
+}
+
+
+td.revise-buttons {
+    width: 200px;
+}
+
+.centred > div {
+    text-align: center;
+}
+
+#top {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #4e5d6c;
+    height: 170px;
+    z-index: 1;
+}
+
+#revise-header {
+    margin-bottom: 20px;
+}
+
+#word-count,
+#revised-word-count {
+    color: deepskyblue;
+    margin-right: 10px;
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 150px;
+    z-index: -1;
+}
+
+#word-list div:last-child {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.display-word {
+    font-size: 19px;
+    border: 2px solid #66707B;
+    margin: 0 70px;
+    height: 40px;
+    padding-top: 4px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.input-word {
+    background-color: #4e5d6c;
+    color: white;
+}

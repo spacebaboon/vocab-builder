@@ -4,14 +4,12 @@ angular.module('vocabApp')
         return {
 
             shuffle: function (array) {
-                console.log("shuffle called at " + Date.now());
                 var newArray = [].concat(array);
                 for (var i = 0; i < newArray.length; i++) {
                     var randomIndex = Math.floor(Math.random() * newArray.length);
                     var tmp = newArray[i];
                     newArray[i] = newArray[randomIndex];
                     newArray[randomIndex] = tmp;
-                    console.log("swapping " + i + " and " + randomIndex);
                 }
                 return newArray;
             },
