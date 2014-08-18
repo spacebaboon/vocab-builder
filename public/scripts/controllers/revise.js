@@ -27,7 +27,6 @@ angular.module('vocabApp')
         $scope.showHint = function (word, currentSize) {
             $scope.revealedWord = genericService.hint(word, currentSize || 0);
             if ($scope.revealedWord == word) {
-                $scope.revisedWordCount++;
                 showNextWord();
             }
         }
