@@ -1,0 +1,417 @@
+{ "_id" : { "$oid" : "53d677e39fb82d482d000001" }, "english" : "house", "german" : "das Haus", "__v" : 0 }
+{ "_id" : { "$oid" : "53d677f29fb82d482d000002" }, "english" : "easy", "german" : "einfach", "__v" : 0 }
+{ "_id" : { "$oid" : "53d67c9b9fb82d482d000003" }, "english" : "tree", "german" : "der Baum", "__v" : 0 }
+{ "_id" : { "$oid" : "53d67cab9fb82d482d000004" }, "english" : "horse", "german" : "das Pferd", "__v" : 0 }
+{ "_id" : { "$oid" : "53d67d3f9fb82d482d000005" }, "english" : "cat", "german" : "die Katze", "__v" : 0 }
+{ "_id" : { "$oid" : "53e17b3101ca12c605000005" }, "english" : "to write", "german" : "schreiben", "__v" : 0 }
+{ "_id" : { "$oid" : "53e3819e7afa8ba193000001" }, "english" : "to eat", "german" : "essen", "__v" : 0 }
+{ "_id" : { "$oid" : "53e8bd124904166711000001" }, "english" : "dog", "german" : "der Hund", "__v" : 0 }
+{ "_id" : { "$oid" : "53eb2b4176f7a5aa21000001" }, "english" : "to run", "german" : "laufen", "__v" : 0 }
+{ "_id" : { "$oid" : "53ef297c24e41bae25000001" }, "english" : "spoiled", "german" : "verdorben", "__v" : 0 }
+{ "_id" : { "$oid" : "53f0d4ae24e41bae25000002" }, "english" : "effective", "german" : "wirksam", "__v" : 0 }
+{ "_id" : { "$oid" : "53f1091924e41bae25000003" }, "english" : "loudspeaker", "german" : "das Lautsprecher", "__v" : 0 }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947167" }, "german" : "besonders", "english" : "particularly" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947168" }, "german" : "sondern", "english" : "but" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947169" }, "german" : "sicher", "english" : "sure" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594716a" }, "german" : "sicher", "english" : "safe" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594716b" }, "german" : "wahrscheinlich", "english" : "probably" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594716c" }, "german" : "die Skizze", "english" : "sketch" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594716d" }, "german" : "skizzen", "english" : "to sketch" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594716e" }, "german" : "die Badewanne", "english" : "bathtub" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594716f" }, "german" : "der Bericht", "english" : "report" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947170" }, "german" : "nennt man", "english" : "is called" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947171" }, "german" : "das Gebäude", "english" : "building" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947172" }, "german" : "aufgeräumt", "english" : "tidied" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947173" }, "german" : "aufräumen", "english" : "to tidy up" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947174" }, "german" : "bei", "english" : "at" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947175" }, "german" : "beim", "english" : "when" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947176" }, "german" : "der Vergangenheit", "english" : "the past" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947177" }, "german" : "die Zukunft", "english" : "the future" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947178" }, "german" : "das Vorliegende", "english" : "the present" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947179" }, "german" : "der Anrufbeantworter", "english" : "answering machine" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594717a" }, "german" : "die Nachricht", "english" : "message" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594717b" }, "german" : "hinterlassen", "english" : "to leave a message" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594717c" }, "german" : "der Kellner", "english" : "waiter" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594717d" }, "german" : "tätig", "english" : "active" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594717e" }, "german" : "die Tätigkeit", "english" : "activity" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594717f" }, "german" : "verteilen", "english" : "to distribute" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947180" }, "german" : "passen", "english" : "to suit" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947181" }, "german" : "verpassen", "english" : "to miss " }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947182" }, "german" : "aufpassen", "english" : "to look out" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947183" }, "german" : "anstrengend", "english" : "exhausting" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947184" }, "german" : "verdienen", "english" : "to earn" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947185" }, "german" : "erledigen", "english" : "to take care of" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947186" }, "german" : "holen", "english" : "to get" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947187" }, "german" : "abholen", "english" : "to collect" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947188" }, "german" : "die Aufgabe", "english" : "task" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947189" }, "german" : "Hausaufgaben", "english" : "homework" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594718a" }, "german" : "speichern", "english" : "to save" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594718b" }, "german" : "zusätzliche", "english" : "additional" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594718c" }, "german" : "kontrollieren", "english" : "to check" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594718d" }, "german" : "überprüfen", "english" : "to check" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594718e" }, "german" : "ankündigen", "english" : "to announce" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594718f" }, "german" : "unterdessen", "english" : "meanwhile" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947190" }, "german" : "mittlerweile", "english" : "meanwhile" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947191" }, "german" : "inzwischen", "english" : "meanwhile" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947192" }, "german" : "männlich", "english" : "masculine" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947193" }, "german" : "weiblich", "english" : "feminine" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947194" }, "german" : "sächlich", "english" : "neuter" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947195" }, "german" : "mehrzahl", "english" : "plural" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947196" }, "german" : "laufen", "english" : "to run, to function" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947197" }, "german" : "laufen", "english" : "to function" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947198" }, "german" : "anlaufen", "english" : "to start off" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947199" }, "german" : "herumlaufen", "english" : "to walk around" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594719a" }, "german" : "fangen", "english" : "to catch" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594719b" }, "german" : "anfangen", "english" : "to start" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594719c" }, "german" : "gefangen", "english" : "to capture" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594719d" }, "german" : "der Umfang", "english" : "scope" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594719e" }, "german" : "die Bedingung", "english" : "condition" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594719f" }, "german" : "das Befinden", "english" : "condition" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a0" }, "german" : "der Zustand", "english" : "condition" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a1" }, "german" : "die Fortsetzung", "english" : "continuation" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a2" }, "german" : "die Lösung", "english" : "solution" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a3" }, "german" : "die Auflösung", "english" : "solution" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a4" }, "german" : "kommen", "english" : "to come" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a5" }, "german" : "vorkommen", "english" : "to occur" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a6" }, "german" : "der Mangel", "english" : "a lack of something" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a7" }, "german" : "betreuen", "english" : "to look after" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a8" }, "german" : "betreuen", "english" : "to be accustomed to" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471a9" }, "german" : "fest", "english" : "fixed" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471aa" }, "german" : "Teilzeit", "english" : "part time" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ab" }, "german" : "erlauben", "english" : "to allow" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ac" }, "german" : "die Betreuung", "english" : "care" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ad" }, "german" : "die Einstellung", "english" : "setting" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ae" }, "german" : "ändern", "english" : "to change" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471af" }, "german" : "geändert", "english" : "changed" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b0" }, "german" : "die Mehrheit", "english" : "majority" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b1" }, "german" : "die Minderheit", "english" : "minority" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b2" }, "german" : "der Durchschnitt", "english" : "average" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b3" }, "german" : "der Mittelwert", "english" : "average" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b4" }, "german" : "vornehmen", "english" : "to carry out" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b5" }, "german" : "schätzen", "english" : "to estimate" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b6" }, "german" : "die Handlung", "english" : "the act" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b7" }, "german" : "regelmäßig", "english" : "regular" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b8" }, "german" : "Gemeinschaft", "english" : "community" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471b9" }, "german" : "fördern", "english" : "to promote" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ba" }, "german" : "leisten", "english" : "to achieve" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471bb" }, "german" : "das Opfer", "english" : "victim" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471bc" }, "german" : "unterstützen", "english" : "to support" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471bd" }, "german" : "die Maßname", "english" : "measure" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471be" }, "german" : "die Bildung", "english" : "education" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471bf" }, "german" : "die Forderung", "english" : "requirement" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c0" }, "german" : "die Herausforderung", "english" : "challenge" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c1" }, "german" : "bereit", "english" : "ready" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c2" }, "german" : "bereits", "english" : "already" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c3" }, "german" : "bereiten", "english" : "to prepare" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c4" }, "german" : "vorbereiten", "english" : "to prepare" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c5" }, "german" : "kaum", "english" : "hardly" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c6" }, "german" : "trotz", "english" : "despite" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c7" }, "german" : "trotzdem", "english" : "nevertheless" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c8" }, "german" : "die Beziehung", "english" : "relationship" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471c9" }, "german" : "beziehen", "english" : "to obtain" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ca" }, "german" : "fast", "english" : "almost" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471cb" }, "german" : "vorstellen", "english" : "to introduce" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471cc" }, "german" : "sich etw vorstellen", "english" : "to imagine something" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471cd" }, "german" : "stellen", "english" : "to put" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ce" }, "german" : "gewöhnlich", "english" : "usually" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471cf" }, "german" : "mehrere", "english" : "several" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d0" }, "german" : "genannt", "english" : "called" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d1" }, "german" : "entstehen", "english" : "to emerge" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d2" }, "german" : "eng ", "english" : "close" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d3" }, "german" : "die Wirtschaft", "english" : "economy" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d4" }, "german" : "die Wissenschaft", "english" : "science" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d5" }, "german" : "die Mannschaft", "english" : "team" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d6" }, "german" : "die Gemeinschaft", "english" : "comunity" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d7" }, "german" : "die Gesellschaft", "english" : "society" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d8" }, "german" : "die Eigenschaft", "english" : "characteristic" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471d9" }, "german" : "die Gegnerschaft", "english" : "opposition" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471da" }, "german" : "die Landschaft", "english" : "landscape" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471db" }, "german" : "die Leidenschaft", "english" : "passion" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471dc" }, "german" : "die Ortschaft", "english" : "place" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471dd" }, "german" : "die Bereitschaft", "english" : "willingness" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471de" }, "german" : "günstig", "english" : "low-priced" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471df" }, "german" : "günstig", "english" : "convenient" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e0" }, "german" : "günstig", "english" : "favourable" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e1" }, "german" : "halten", "english" : "to hold" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e2" }, "german" : "einhalten", "english" : "to follow" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e3" }, "german" : "bestimmte", "english" : "certain" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e4" }, "german" : "der Erfolg", "english" : "result" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e5" }, "german" : "niedrig", "english" : "low" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e6" }, "german" : "wachsen", "english" : "to grow" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e7" }, "german" : "zweistelligen", "english" : "double digit" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e8" }, "german" : "die Tatsache", "english" : "fact" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471e9" }, "german" : "erwarten", "english" : "to expect" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ea" }, "german" : "zutreffen", "english" : "to apply" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471eb" }, "german" : "ersetzen", "english" : "to replace" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ec" }, "german" : "die Beliebheit", "english" : "popularity" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ed" }, "german" : "die Gewohnheit", "english" : "habit" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ee" }, "german" : "das Gespräch", "english" : "conversation" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ef" }, "german" : "äußern", "english" : "to express" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f0" }, "german" : "die Zweckentfremden", "english" : "misuse" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f1" }, "german" : "vorsehen", "english" : "to provide" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f2" }, "german" : "ausreichend", "english" : "sufficient" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f3" }, "german" : "unzureichend", "english" : "insufficient" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f4" }, "german" : "allerdings", "english" : "although" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f5" }, "german" : "obwohl", "english" : "although" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f6" }, "german" : "wohl", "english" : "well" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f7" }, "german" : "sowohl", "english" : "both" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f8" }, "german" : "der Übergang", "english" : "transition" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471f9" }, "german" : "verzögern", "english" : "to delay" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471fa" }, "german" : "das Gesetz", "english" : "the law" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471fb" }, "german" : "bezüglich", "english" : "concerning" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471fc" }, "german" : "bewegt", "english" : "moves" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471fd" }, "german" : "wegen", "english" : "because of" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471fe" }, "german" : "ermöglichen", "english" : "to enable" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59471ff" }, "german" : "statt", "english" : "instead of" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947200" }, "german" : "stattfinden", "english" : "to take place" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947201" }, "german" : "die Beschreibung", "english" : "description" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947202" }, "german" : "der Zustand", "english" : "condition" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947203" }, "german" : "der Ausbau", "english" : "building extension" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947204" }, "german" : "sogar", "english" : "even" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947205" }, "german" : "meiden", "english" : "to avoid" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947206" }, "german" : "wegen", "english" : "because of" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947207" }, "german" : "deswegen", "english" : "because of this" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947208" }, "german" : "umgekehrt", "english" : "vice versa" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947209" }, "german" : "übrigens", "english" : "by the way, incidentally" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594720a" }, "german" : "drängend", "english" : "urgent" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594720b" }, "german" : "dringend", "english" : "urgent" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594720c" }, "german" : "die Veranstaltung", "english" : "event" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594720d" }, "german" : "abnehmen", "english" : "to remove" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594720e" }, "german" : "abnehmen", "english" : "to decrease" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594720f" }, "german" : "zunehmen", "english" : "to increase" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947210" }, "german" : "die Dauer", "english" : "duration" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947211" }, "german" : "Dauersperrung", "english" : "permanent closure" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947212" }, "german" : "die Umfrage", "english" : "survey" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947213" }, "german" : "gering", "english" : "small" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947214" }, "german" : "niedrig", "english" : "small" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947215" }, "german" : "das Gesetz", "english" : "law" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947216" }, "german" : "das Recht", "english" : "law" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947217" }, "german" : "die Rechtsordnung", "english" : "law" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947218" }, "german" : "das Gericht", "english" : "court of law" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947219" }, "german" : "vorstellen", "english" : "to introduce" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594721a" }, "german" : "deutlich", "english" : "clearly" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594721b" }, "german" : "die Behandlung", "english" : "treatment" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594721c" }, "german" : "der Zeitraum", "english" : "period of time" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594721d" }, "german" : "herstellen", "english" : "to produce" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594721e" }, "german" : "greifen", "english" : "to catch" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594721f" }, "german" : "die Frist", "english" : "term " }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947220" }, "german" : "kurzfristig", "english" : "short term" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947221" }, "german" : "die Fähigkeit", "english" : "ability" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947222" }, "german" : "die Leistung", "english" : "performance" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947223" }, "german" : "die Leistungfähigkeit", "english" : "efficiency" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947224" }, "german" : "das Zeug", "english" : "stuff" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947225" }, "german" : "der Alltag", "english" : "everyday life" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947226" }, "german" : "die Fachsleute", "english" : "professionals" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947227" }, "german" : "der Bericht", "english" : "report" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947228" }, "german" : "der Fortschritt", "english" : "advance, progress" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947229" }, "german" : "voranbringen", "english" : "to advance" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594722a" }, "german" : "beziehen auf", "english" : "in relation to " }
+{ "_id" : { "$oid" : "53f1351092f58c08f594722b" }, "german" : "messen", "english" : "to measure" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594722c" }, "german" : "vorn", "english" : "in front" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594722d" }, "german" : "erschreckend", "english" : "frightening" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594722e" }, "german" : "ehrlich", "english" : "honest" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594722f" }, "german" : "die Ehrlichkeit", "english" : "honesty" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947230" }, "german" : "geschehen", "english" : "to happen" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947231" }, "german" : "vorkommen", "english" : "to happen" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947232" }, "german" : "begegnen", "english" : "to happen" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947233" }, "german" : "passieren", "english" : "to happen" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947234" }, "german" : "verschwinden", "english" : "to disappear" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947235" }, "german" : "verschwinden lassen", "english" : "to wipe out" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947236" }, "german" : "wiederbekommen", "english" : "to regain" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947237" }, "german" : "der Täter", "english" : "perpetrator" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947238" }, "german" : "die Wirkung", "english" : "effect" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947239" }, "german" : "due Auswirkung", "english" : "effect" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594723a" }, "german" : "wirken", "english" : "to act" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594723b" }, "german" : "untersuchen", "english" : "to investigate" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594723c" }, "german" : "das Gift", "english" : "poison" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594723d" }, "german" : "das Rauschgift", "english" : "drug" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594723e" }, "german" : "breiten", "english" : "spread" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594723f" }, "german" : "ausbreiten", "english" : "spread" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947240" }, "german" : "verbreiten", "english" : "spread" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947241" }, "german" : "schädlich", "english" : "harmful" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947242" }, "german" : "anregen", "english" : "to stimulate" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947243" }, "german" : "die Ursache", "english" : "cause" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947244" }, "german" : "verursachen", "english" : "to cause" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947245" }, "german" : "bewirken", "english" : "to cause" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947246" }, "german" : "veranlassen", "english" : "to cause" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947247" }, "german" : "das Auftreten", "english" : "occurrence" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947248" }, "german" : "das Vorkommen", "english" : "occurrence" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947249" }, "german" : "auftreten", "english" : "to occur" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594724a" }, "german" : "erfolgen", "english" : "to occur" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594724b" }, "german" : "vorkommen", "english" : "to occur" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594724c" }, "german" : "das Gehirn", "english" : "brain" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594724d" }, "german" : "das Hirn", "english" : "brain" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594724e" }, "german" : "der Verstand", "english" : "mind" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594724f" }, "german" : "der Verstand", "english" : "sense" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947250" }, "german" : "der Verstand", "english" : "understanding" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947251" }, "german" : "offenbar", "english" : "apparently" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947252" }, "german" : "offenbaren", "english" : "to reveal" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947253" }, "german" : "erhalten", "english" : "to receive" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947254" }, "german" : "empfangen", "english" : "to receive" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947255" }, "german" : "demnächst", "english" : "next" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947256" }, "german" : "auflösen", "english" : "to dissolve" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947257" }, "german" : "sich auflösen", "english" : "to break up" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947258" }, "german" : "zersetzen", "english" : "to decompose" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947259" }, "german" : "finster", "english" : "dark" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594725a" }, "german" : "böse", "english" : "evil" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594725b" }, "german" : "schweigen", "english" : "to remain silent" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594725c" }, "german" : "verstummt", "english" : "to fall silent" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594725d" }, "german" : "radieren", "english" : "to erase" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594725e" }, "german" : "der Zwilling", "english" : "twin" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594725f" }, "german" : "die Berechnung", "english" : "calculation" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947260" }, "german" : "die Regung", "english" : "movement" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947261" }, "german" : "auslösen", "english" : "to set off" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947262" }, "german" : "erfahren", "english" : "to learn" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947263" }, "german" : "die Erfahrung", "english" : "experience" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947264" }, "german" : "die Erwähnung", "english" : "mention" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947265" }, "german" : "vor allem", "english" : "particularly" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947266" }, "german" : "raunen", "english" : "to whisper" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947267" }, "german" : "der Anspruch", "english" : "claim" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947268" }, "german" : "bei", "english" : "at, in, with" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947269" }, "german" : "entlassen", "english" : "to dismiss" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594726a" }, "german" : "verwerfen", "english" : "to dismiss" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594726b" }, "german" : "abtun", "english" : "to dismiss" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594726c" }, "german" : "genauso", "english" : "just as" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594726d" }, "german" : "sich gewöhnen", "english" : "get used to" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594726e" }, "german" : "die Demütigung", "english" : "humiliation" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594726f" }, "german" : "bestehen in ", "english" : "consists of" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947270" }, "german" : "lächeln", "english" : "to smile" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947271" }, "german" : "lachen", "english" : "to laugh" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947272" }, "german" : "der Hohn", "english" : "scorn" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947273" }, "german" : "höhnisch", "english" : "scornful" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947274" }, "german" : "verächtlich", "english" : "scornful" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947275" }, "german" : "knipsen", "english" : "to snap a picture" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947276" }, "german" : "eng", "english" : "close" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947277" }, "german" : "winzig", "english" : "tiny" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947278" }, "german" : "einzig", "english" : "only" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947279" }, "german" : "die Behörden", "english" : "authorities" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594727a" }, "german" : "die Sehnsucht", "english" : "longing" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594727b" }, "german" : "ungeheuer", "english" : "enormous" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594727c" }, "german" : "ergründen", "english" : "to fathom" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594727d" }, "german" : "verbergen", "english" : "to hide" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594727e" }, "german" : "verstecken", "english" : "to hide" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594727f" }, "german" : "verschweigen", "english" : "to hide" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947280" }, "german" : "darum", "english" : "therefore" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947281" }, "german" : "bemerken", "english" : "to notice" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947282" }, "german" : "beachten", "english" : "to notice" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947283" }, "german" : "beobachten", "english" : "to observe" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947284" }, "german" : "überwachen", "english" : "to observe" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947285" }, "german" : "verdorben", "english" : "spoiled" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947286" }, "german" : "die Mühe", "english" : "effort" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947287" }, "german" : "mühelos", "english" : "easily" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947288" }, "german" : "eher", "english" : "rather" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947289" }, "german" : "drängen", "english" : "to urge" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594728a" }, "german" : "sich zeigen", "english" : "to appear" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594728b" }, "german" : "die Pein", "english" : "anguish" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594728c" }, "german" : "die Qual", "english" : "anguish" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594728d" }, "german" : "peinlich", "english" : "embarrassing" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594728e" }, "german" : "die Peinlichkeit", "english" : "embarassment" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594728f" }, "german" : "schaffen", "english" : "to establish" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947290" }, "german" : "zumindest", "english" : "at least" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947291" }, "german" : "mindestens", "english" : "at least" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947292" }, "german" : "die Einigung", "english" : "agreement" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947293" }, "german" : "zwar", "english" : "indeed" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947294" }, "german" : "tatsächlich", "english" : "indeed" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947295" }, "german" : "stimmen", "english" : "to vote" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947296" }, "german" : "zustimmen", "english" : "to agree" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947297" }, "german" : "abstimmen", "english" : "to agree" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947298" }, "german" : "der Vorschlag", "english" : "proposal" }
+{ "_id" : { "$oid" : "53f1351092f58c08f5947299" }, "german" : "betreiben", "english" : "to operate" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594729a" }, "german" : "verplant", "english" : "scheduled" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594729b" }, "german" : "der Vertrag", "english" : "contract" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594729c" }, "german" : "versiegeln", "english" : "to seal" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594729d" }, "german" : "ertragen", "english" : "to endure" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594729e" }, "german" : "erträglich", "english" : "bearable" }
+{ "_id" : { "$oid" : "53f1351092f58c08f594729f" }, "german" : "ablehnen", "english" : "to reject" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a0" }, "german" : "deutlich", "english" : "clear" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a1" }, "german" : "inzwischen", "english" : "in the meantime" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a2" }, "german" : "künftig", "english" : "future" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a3" }, "german" : "salopp", "english" : "sloppy" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a4" }, "german" : "schlampig", "english" : "sloppy" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a5" }, "german" : "nachlässig", "english" : "carelessly" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a6" }, "german" : "der Ausschuss", "english" : "committee" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a7" }, "german" : "entlassen", "english" : "to relieve" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a8" }, "german" : "zuständig", "english" : "responsible" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472a9" }, "german" : "verantwortlich", "english" : "responsible" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472aa" }, "german" : "schikanieren", "english" : "to bully" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ab" }, "german" : "belästigen", "english" : "to bully" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ac" }, "german" : "vermuten", "english" : "to suspect" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ad" }, "german" : "angelegenheit", "english" : "matter, issue" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ae" }, "german" : "offensichtlich", "english" : "obviously" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472af" }, "german" : "dicht", "english" : "close" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b0" }, "german" : "der Konkurs", "english" : "failure" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b1" }, "german" : "der Konkurs", "english" : "bankruptcy" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b2" }, "german" : "der Bankrott", "english" : "bankruptcy" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b3" }, "german" : "die Pleite", "english" : "collapse" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b4" }, "german" : "die Gewissheit", "english" : "certainty" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b5" }, "german" : "die Ungewissheit", "english" : "uncertainty" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b6" }, "german" : "ausschließen", "english" : "to exclude" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b7" }, "german" : "das Verbrechen", "english" : "crime" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b8" }, "german" : "üppig", "english" : "luxuriant" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472b9" }, "german" : "umfassen", "english" : "to include" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ba" }, "german" : "notwendig", "english" : "necessary" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472bb" }, "german" : "der Abriss", "english" : "demolition" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472bc" }, "german" : "die Entscheidung", "english" : "decision" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472bd" }, "german" : "enthalten", "english" : "to contain" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472be" }, "german" : "allgemain", "english" : "generally" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472bf" }, "german" : "das Strecken", "english" : "stretch" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c0" }, "german" : "sanfte", "english" : "gentle" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c1" }, "german" : "schweigen", "english" : "to be silent" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c2" }, "german" : "verabreden", "english" : "to arrange" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c3" }, "german" : "sich verabreden", "english" : "to arrange to meet" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c4" }, "german" : "beinahe", "english" : "almost" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c5" }, "german" : "drehen", "english" : "to turn" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c6" }, "german" : "bröckeln", "english" : "to crumble" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c7" }, "german" : "fort", "english" : "away" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c8" }, "german" : "fortführen", "english" : "to continue" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472c9" }, "german" : "der Absatz", "english" : "sales" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ca" }, "german" : "der Absatz", "english" : "paragraph" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472cb" }, "german" : "der Absatz", "english" : "heel" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472cc" }, "german" : "erschienen", "english" : "to appear" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472cd" }, "german" : "schlucken", "english" : "to swallow" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ce" }, "german" : "der Zweifel", "english" : "doubt" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472cf" }, "german" : "das Gerücht", "english" : "rumour" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d0" }, "german" : "ablegen", "english" : "to store" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d1" }, "german" : "erkennen", "english" : "to recognise" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d2" }, "german" : "hinauf", "english" : "up" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d3" }, "german" : "einholen", "english" : "to catch up" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d4" }, "german" : "seufzen", "english" : "to sigh" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d5" }, "german" : "leise", "english" : "soft" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d6" }, "german" : "gleißen", "english" : "to gleam" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d7" }, "german" : "andeuten", "english" : "to indicate" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d8" }, "german" : "die Erforschung", "english" : "research" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472d9" }, "german" : "der Bestandteil", "english" : "component" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472da" }, "german" : "senken", "english" : "to reduce" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472db" }, "german" : "der Blutdruck", "english" : "blood pressure" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472dc" }, "german" : "hingegen", "english" : "however" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472dd" }, "german" : "landläufig", "english" : "commonly" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472de" }, "german" : "wirksam", "english" : "effective" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472df" }, "german" : "bevorzugen", "english" : "to prefer" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e0" }, "german" : "andeuten", "english" : "to suggest" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e1" }, "german" : "die Rezension", "english" : "review" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e2" }, "german" : "angenehm", "english" : "enjoyable" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e3" }, "german" : "die Decke", "english" : "blanket" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e4" }, "german" : "sich beeilen", "english" : "to hurry" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e5" }, "german" : "gähnen", "english" : "to yawn" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e6" }, "german" : "torkeln", "english" : "to stagger" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e7" }, "german" : "tauchen", "english" : "to immerse" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e8" }, "german" : "kahl", "english" : "bare" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472e9" }, "german" : "schmal", "english" : "narrow" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ea" }, "german" : "eng", "english" : "narrow" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472eb" }, "german" : "die Lichtung", "english" : "clearing" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ec" }, "german" : "der Beton", "english" : "concrete" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ed" }, "german" : "die Ferne", "english" : "distance" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ee" }, "german" : "mittelmäßig", "english" : "mediocre" }
+{ "_id" : { "$oid" : "53f1351092f58c08f59472ef" }, "german" : "der Erfolg", "english" : "success" }
+{ "_id" : { "$oid" : "53f1d2f924e41bae25000004" }, "english" : "renowned", "german" : "renommierte", "__v" : 0 }
+{ "_id" : { "$oid" : "53f1e05524e41bae25000005" }, "english" : "to attack", "german" : "überfallen", "__v" : 0 }
+{ "_id" : { "$oid" : "53f2097024e41bae25000007" }, "english" : "umbrella", "german" : "der Regenschirm", "__v" : 0 }
+{ "_id" : { "$oid" : "53f286ff24e41bae2500000e" }, "english" : "as far as I know", "german" : "soweit ich weiß", "__v" : 0 }
+{ "_id" : { "$oid" : "53f2871b24e41bae2500000f" }, "english" : "the likes of us", "german" : "unsereins", "__v" : 0 }
+{ "_id" : { "$oid" : "53f287bb24e41bae25000010" }, "english" : "empty", "german" : "leer", "__v" : 0 }
+{ "_id" : { "$oid" : "53f46f3e24e41bae25000011" }, "english" : "suspicion", "german" : "der Verdacht", "__v" : 0 }
+{ "_id" : { "$oid" : "53f46f8024e41bae25000012" }, "english" : "to vote", "german" : "stimmen", "__v" : 0 }
+{ "_id" : { "$oid" : "53f46f8724e41bae25000013" }, "english" : "to vote", "german" : "abstimmen", "__v" : 0 }
+{ "_id" : { "$oid" : "53f4745b24e41bae25000014" }, "english" : "to turn out to be", "german" : "entpuppen", "__v" : 0 }
+{ "_id" : { "$oid" : "54173f14f3d3fe5e18000001" }, "english" : "attention", "german" : "die Aufmerksamkeit", "__v" : 0 }
+{ "_id" : { "$oid" : "54174105f3d3fe5e18000002" }, "english" : "to exist", "german" : "bestehen", "__v" : 0 }
