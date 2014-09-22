@@ -29,21 +29,21 @@ angular.module('vocabApp')
         $scope.showWord = function (word) {
             $scope.revealedWord = word;
             showNextWord();
-        }
+        };
 
         $scope.showHint = function (word, currentSize) {
             $scope.revealedWord = genericService.hint(word, currentSize || 0);
             if ($scope.revealedWord == word) {
                 showNextWord();
             }
-        }
+        };
 
         $scope.switchLanguage = function () {
             var tmpLang = $scope.lang_left;
             $scope.lang_left = $scope.lang_right;
             $scope.lang_right = tmpLang;
             $scope.revealedWord = "";
-        }
+        };
 
         function sortWords() {
             if ($scope.sortOrder === 'random') {
@@ -57,22 +57,9 @@ angular.module('vocabApp')
             $scope.sortOrder = ($scope.sortOrder === 'random') ? 'recent' : 'random';
             sortWords();
             $scope.revealedWords = [];
-        }
+        };
 
-        $scope.genderColour = function(word) {
-            if (!word) return 'unknown';
-
-            switch (word.substr(0, 4)) {
-                case 'der ':
-                    return 'masculine';
-                case 'die ':
-                    return 'feminine';
-                case 'das ':
-                    return 'neuter';
-                default:
-                    return 'unknown';
-            }
-        }
+        $scope.genderColour = genericService.genderColour;
 
         var showNextWord = function () {
             $scope.blockButtons = true;

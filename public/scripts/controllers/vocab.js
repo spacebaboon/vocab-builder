@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('vocabApp')
-    .controller('VocabController', function ($scope, $http) {
+    .controller('VocabController', function ($scope, $http, genericService) {
 
         $scope.formData = {};
 
@@ -9,7 +9,6 @@ angular.module('vocabApp')
         $http.get('/api/words')
             .success(function (data) {
                 $scope.words = data;
-                console.log(data);
             })
             .error(function (data) {
                 console.log('Error: ' + data);
@@ -21,7 +20,6 @@ angular.module('vocabApp')
                 .success(function (data) {
                     $scope.formData = {}; // clear the form so our user is ready to enter another
                     $scope.words = data;
-                    console.log(data);
                 })
                 .error(function (data) {
                     console.log('Error: ' + data);
@@ -33,11 +31,13 @@ angular.module('vocabApp')
             $http.delete('/api/words/' + id)
                 .success(function (data) {
                     $scope.words = data;
-                    console.log(data);
                 })
                 .error(function (data) {
                     console.log('Error: ' + data);
                 });
         };
+
+        $scope.genderColour = genericService.genderColour;
+
 
     });

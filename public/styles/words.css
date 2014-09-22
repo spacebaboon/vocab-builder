@@ -10,7 +10,6 @@ body {
     margin-bottom: 30px;
 }
 
-
 td.revise-buttons {
     width: 200px;
 }
@@ -62,4 +61,20 @@ td.revise-buttons {
 .input-word {
     background-color: #4e5d6c;
     color: white;
+}
+
+.masculine {
+    color: deepskyblue;
+}
+
+.feminine {
+    color: hotpink;
+}
+
+.neuter {
+    color: greenyellow;
+}
+
+.unknown {
+    color: white
 }
