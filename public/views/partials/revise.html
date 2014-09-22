@@ -6,8 +6,11 @@
             <div class="col-lg-4">
                 <h2><span id="revised-word-count">{{ index }} / {{ totalWords }}</span> words revised </h2>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-2">
                 <a ng-click="switchLanguage()"><h2>{{ lang_left }} - {{ lang_right }}</h2></a>
+            </div>
+            <div class="col-lg-2">
+                <a ng-click="switchSortOrder()"><h2>{{ sortOrder }}</h2></a>
             </div>
             <div class="col-lg-2">
                 <a href="/"><h2>vocab</h2></a>

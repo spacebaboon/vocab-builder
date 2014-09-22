@@ -3,19 +3,23 @@
 angular.module('vocabApp')
     .controller('ReviseController', function ($scope, $http, $timeout, genericService) {
 
-        var randomWords;
+        var words;
+        var wordsFromDb;
         $scope.index = 0;
         $scope.lang_left = 'german';
         $scope.lang_right = 'english';
+        $scope.lang_right = 'english';
+        $scope.sortOrder = 'random';
         $scope.revealedWords = [];
         $scope.revealedWord = "";
         $scope.blockButtons = false;
 
         $http.get('/api/words')
             .success(function (data) {
-                randomWords = genericService.shuffle(data);
-                $scope.totalWords = randomWords.length;
-                $scope.word = randomWords[$scope.index];
+                wordsFromDb = data.reverse();
+                sortWords();
+                $scope.totalWords = words.length;
+                $scope.word = words[$scope.index];
             })
             .error(function (data) {
                 console.log('Error: ' + data);
@@ -39,7 +43,21 @@ angular.module('vocabApp')
             $scope.lang_left = $scope.lang_right;
             $scope.lang_right = tmpLang;
             $scope.revealedWord = "";
-        };
+        }
+
+        function sortWords() {
+            if ($scope.sortOrder === 'random') {
+                words = genericService.shuffle(wordsFromDb);
+            } else {
+                words = [].concat(wordsFromDb);
+            }
+        }
+
+        $scope.switchSortOrder = function() {
+            $scope.sortOrder = ($scope.sortOrder === 'random') ? 'recent' : 'random';
+            sortWords();
+            $scope.revealedWords = [];
+        }
 
         var showNextWord = function () {
             $scope.blockButtons = true;
@@ -47,7 +65,7 @@ angular.module('vocabApp')
                 $scope.revealedWords.unshift($scope.word);
                 $scope.revealedWord = "";
                 $scope.index++;
-                $scope.word = randomWords[$scope.index];
+                $scope.word = words[$scope.index];
                 $scope.blockButtons = false;
             }, 1000);
         };
