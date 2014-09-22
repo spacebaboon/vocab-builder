@@ -14,11 +14,6 @@ angular.module('vocabApp')
                 return newArray;
             },
 
-            putInOrder: function(array) {
-                var newArray = [].concat(array);
-
-            },
-
             hint: function (word, currentSize) {
                 var hintedWord = word.substring(0, currentSize + 1);
                 if (hintedWord.charAt(currentSize) === ' ') {

@@ -1,3 +1,9 @@
+<style>
+    .masculine {color: cyan}
+    .feminine {color: pink}
+    .neuter {color: lightslategrey}
+    .unknown {color: white}
+</style>
 <div>
 
     <div id="top" class="container">
@@ -19,10 +25,10 @@
 
         <div id="word-form" class="row centred">
             <div id="word-left" class="col-lg-4">
-                <div class="display-word">{{ word[lang_left] }}</div>
+                <div class="display-word" ng-class="genderColour(word[lang_left])">{{ word[lang_left] }}</div>
             </div>
             <div id="word-right" class="col-lg-4">
-                <div class="display-word">{{ revealedWord }}&nbsp;</div>
+                <div class="display-word" ng-class="genderColour(revealedWord)">{{ revealedWord }}&nbsp;</div>
             </div>
             <div id="buttons" class="col-lg-2 revise-buttons">
                 <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
@@ -36,8 +42,8 @@
     <div id="bottom" class="container">
 
         <div id="word-list" class="row centred" ng-repeat="word in revealedWords">
-            <div class="col-lg-4">{{ word[lang_left] }}</div>
-            <div class="col-lg-4">{{ word[lang_right] }}</div>
+            <div class="col-lg-4" ng-class="genderColour(word[lang_left])">{{ word[lang_left] }}</div>
+            <div class="col-lg-4" ng-class="genderColour(word[lang_right])">{{ word[lang_right] }}</div>
             <div class="col-lg-2"/>
         </div>
 

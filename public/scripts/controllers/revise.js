@@ -59,6 +59,21 @@ angular.module('vocabApp')
             $scope.revealedWords = [];
         }
 
+        $scope.genderColour = function(word) {
+            if (!word) return 'unknown';
+
+            switch (word.substr(0, 4)) {
+                case 'der ':
+                    return 'masculine';
+                case 'die ':
+                    return 'feminine';
+                case 'das ':
+                    return 'neuter';
+                default:
+                    return 'unknown';
+            }
+        }
+
         var showNextWord = function () {
             $scope.blockButtons = true;
             $timeout(function () {
