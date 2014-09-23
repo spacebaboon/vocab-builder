@@ -6,7 +6,7 @@ describe('E2E: edit vocab page', function () {
     var germanWord = 'das Unregelmässigewort';
 
     beforeEach(function () {
-        browser.get('http://localhost:8080/');
+        browser.get('http://localhost:9090/');
         browser.debugger();
         ptor = protractor.getInstance();
     });

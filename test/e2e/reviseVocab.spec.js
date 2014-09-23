@@ -1,7 +1,7 @@
 describe('E2E: revise vocab page', function() {
 
     beforeEach(function () {
-        browser.get('http://localhost:8080/#/revise');
+        browser.get('http://localhost:9090/#/revise');
     });
 
     it('should show the revise tab as active', function () {

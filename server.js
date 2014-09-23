@@ -1,19 +1,21 @@
+'use strict';
 // server.js
 
 // set up ========================
 var express = require('express');
-var app = express(); 								// create our app w/ express
-var mongoose = require('mongoose'); 					// mongoose for mongodb
-
+var mongoose = require('mongoose');
+var bodyParser = require('body-parser');
 // configuration =================
+
+var app = express();
 
 mongoose.connect('mongodb://localhost/words');
 
-app.configure(function () {
-    app.use(express.static(__dirname + '/public')); 		// set the static files location /public/img will be /img for users
-    app.use(express.logger('dev')); 						// log every request to the console
-    app.use(express.bodyParser()); 							// pull information from html in POST
-});
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(express.static(__dirname + '/public')); 		// set the static files location /public/img will be /img for users
+
+var router = express.Router();
 
 // define model =================
 var Word = mongoose.model('Word', {
@@ -25,7 +27,7 @@ var Word = mongoose.model('Word', {
 
 // api ---------------------------------------------------------------------
 // get all words
-app.get('/api/words', function (req, res) {
+router.get('/api/words', function (req, res) {
 
     // use mongoose to get all words in the database
     Word.find(function (err, words) {
@@ -39,7 +41,7 @@ app.get('/api/words', function (req, res) {
 });
 
 // create word and send back all words after creation
-app.post('/api/words', function (req, res) {
+router.post('/api/words', function (req, res) {
 
     // create a word, information comes from AJAX request from Angular
     Word.create({
@@ -61,7 +63,7 @@ app.post('/api/words', function (req, res) {
 });
 
 // delete a word
-app.delete('/api/words/:word_id', function (req, res) {
+router.delete('/api/words/:word_id', function (req, res) {
     Word.remove({
         _id: req.params.word_id
     }, function (err, word) {
@@ -79,11 +81,11 @@ app.delete('/api/words/:word_id', function (req, res) {
 
 
 // application -------------------------------------------------------------
-app.get('*', function (req, res) {
+router.get('*', function (req, res) {
     res.sendfile('./public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
 });
 
-// listen (start app with node server.js) ======================================
+app.use('/', router);
 app.listen(9090);
 console.log("App listening on port 9090");
 
