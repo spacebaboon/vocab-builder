@@ -33,7 +33,7 @@
 
         <!-- WORD LIST -->
         <div id="word-list" class="row centred" ng-repeat="word in words | orderBy:'_id':true">
-            <div class="col-lg-4" id="german" ng-class="genderColour(word.german)">{{ word.german }}</div>
+            <div class="col-lg-4" id="german"><gender-coloured-word word="{{ word.german }}"/></div>
             <div class="col-lg-4" id="english">{{ word.english }}</div>
             <div class="col-lg-2"><a ng-click="deleteWord(word._id)" class="left-link">delete</a></div>
         </div>
