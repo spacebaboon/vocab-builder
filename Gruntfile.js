@@ -4,10 +4,17 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
 
-        // configure nodemon
         nodemon: {
             dev: {
                 script: 'server.js'
+            }
+        },
+
+        express: {
+            dev: {
+                options: {
+                    script: 'server.js'
+                }
             }
         },
 
@@ -33,15 +40,24 @@ module.exports = function(grunt) {
                     args: {} // Target-specific arguments
                 }
             }
+        },
+
+        concurrent: {
+            options: {
+                logConcurrentOutput: true,
+            },
+            tasks: ['nodemon', 'karma', 'protractor', 'nodemon:dev:stop']
         }
 
     });
 
     grunt.loadNpmTasks('grunt-nodemon');
     grunt.loadNpmTasks('grunt-karma');
+    grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-protractor-runner');
+    grunt.loadNpmTasks('grunt-express-server');
 
-    grunt.registerTask('test', ['karma', 'protractor']);
+    grunt.registerTask('test', ['express:dev', 'karma', 'protractor']);
     grunt.registerTask('default', ['nodemon']);
 
 };
