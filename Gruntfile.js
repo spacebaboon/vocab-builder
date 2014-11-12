@@ -1,12 +1,28 @@
 'use strict';
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     grunt.initConfig({
 
 
+        //concat: {
+        //    dist: {
+        //        src: ['public/scss/**/*.scss'],
+        //        dest: 'public/scss/words.scss'
+        //    }
+        //},
+
+        clean: {
+          css: {
+              src: ['public/css/**/*.css']
+          }
+        },
+
         sass: {
-            main: {
+            dist: {
+                //files: {
+                //    'public/css/words.css':'public/scss/words.scss'
+                //},
                 files: [{
                     expand: true,
                     cwd: 'public/scss',
@@ -27,13 +43,13 @@ module.exports = function(grunt) {
 
         watch: {
             css: {
-                files: ['public/scss/**/*.scss'],
-                tasks: ['sass', 'csslint', 'legacssy:ie8']
+                files: 'public/scss/**/*.scss',
+                tasks: ['sass', 'csslint']
+            },
+            js: {
+                files: 'public/scripts/**/*.js',
+                tasks: ['jshint']
             }
-//            js: {
-//                files: ['public/js/**/*.js'],
-//                tasks: ['jshint']
-//            }
         },
 
         jshint: {
@@ -92,7 +108,7 @@ module.exports = function(grunt) {
 
         concurrent: {
             options: {
-                logConcurrentOutput: true,
+                logConcurrentOutput: true
             },
             tasks: ['watch', 'nodemon']
         }
@@ -100,19 +116,12 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-nodemon');
-    grunt.loadNpmTasks('grunt-karma');
-    grunt.loadNpmTasks('grunt-concurrent');
-    grunt.loadNpmTasks('grunt-protractor-runner');
-    grunt.loadNpmTasks('grunt-express-server');
-    grunt.loadNpmTasks('grunt-contrib-sass');
+    require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
-    grunt.registerTask('build', ['sass', 'karma']);
+    grunt.registerTask('styles', ['clean', 'sass']);
+    grunt.registerTask('build', ['styles', 'karma']);
 
     grunt.registerTask('test', ['express:dev', 'karma', 'protractor']);
-
-    grunt.registerTask('default', ['development', 'concurrent']);
-
-    grunt.registerTask('default', ['nodemon']);
+    grunt.registerTask('default', ['build', 'concurrent']);
 
 };
