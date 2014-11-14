@@ -1,43 +1,22 @@
 <div>
 
-    <div id="top" class="container">
-
-        <div id="revise-header" class="row centred">
-            <div class="col-lg-4">
-                <h2><span id="word-count">{{ words.length }}</span> Words</h2>
-            </div>
-            <div class="col-lg-4">
-                <a href="/#/revise"><h2>revise</h2></a>
-            </div>
-        </div>
-
-        <!-- FORM TO CREATE WORDS -->
-        <div id="word-form" class="row centred">
-            <form>
-                <div class="col-lg-4">
-                    <input type="text" id="german-input" class="display-word input-word input-lg text-center" placeholder="German" ng-model="formData.german">
-                </div>
-                <div class="col-lg-4">
-                    <input type="text" id="english-input" class="display-word input-word input-lg text-center" placeholder="English" ng-model="formData.english">
-                </div>
-                <div class="col-lg-2">
-                    <button type="submit" class="btn btn-success" id="add-button" ng-click="createWord()" onclick='$("html, body").animate({ scrollTop: 0 }, "slow"); $("#german-input").focus();'>Add</button>
-                </div>
-            </form>
-        </div>
-
+    <div id="revise-header">
+        <h2><span id="word-count">{{ words.length }}</span> Words</h2>
+        <a href="/#/revise"><h2>revise</h2></a>
     </div>
 
+    <!-- FORM TO CREATE WORDS -->
+    <form>
+        <input type="text" id="german-input" class="display-word input-word input-lg text-center" placeholder="German" ng-model="formData.german">
+        <input type="text" id="english-input" class="display-word input-word input-lg text-center" placeholder="English" ng-model="formData.english">
+        <button type="submit" class="btn btn-success" id="add-button" ng-click="createWord()" onclick='$("html, body").animate({ scrollTop: 0 }, "slow"); $("#german-input").focus();'>Add</button>
+    </form>
 
-    <div id="bottom" class="container">
-
-        <!-- WORD LIST -->
-        <div id="word-list" class="row centred" ng-repeat="word in words | orderBy:'_id':true">
-            <div class="col-lg-4" id="german"><gender-coloured-word word="{{ word.german }}"/></div>
-            <div class="col-lg-4" id="english">{{ word.english }}</div>
-            <div class="col-lg-2"><a ng-click="deleteWord(word._id)" class="left-link">delete</a></div>
-        </div>
-
+    <!-- WORD LIST -->
+    <div id="word-list" class="row centred" ng-repeat="word in words | orderBy:'_id':true">
+        <gender-coloured-word word="{{ word.german }}"/>
+        {{ word.english }}
+        <a ng-click="deleteWord(word._id)" class="left-link">delete</a>
     </div>
 
 </div>

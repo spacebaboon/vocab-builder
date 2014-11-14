@@ -1,46 +1,30 @@
 <div>
 
-    <div id="top" class="container">
-
-        <div id="revise-header" class="row centred">
-            <div class="col-lg-4">
-                <h2><span id="revised-word-count">{{ index }} / {{ totalWords }}</span> words revised </h2>
-            </div>
-            <div class="col-lg-2">
-                <a ng-click="switchLanguage()"><h2>{{ lang_left }} - {{ lang_right }}</h2></a>
-            </div>
-            <div class="col-lg-2">
-                <a ng-click="switchSortOrder()"><h2>{{ sortOrder }}</h2></a>
-            </div>
-            <div class="col-lg-2">
-                <a href="/"><h2>vocab</h2></a>
-            </div>
-        </div>
-
-        <div id="word-form" class="row centred">
-            <div id="word-left" class="col-lg-4">
-                <div class="display-word"><gender-coloured-word word="{{ word[lang_left] }}"/></div>
-            </div>
-            <div id="word-right" class="col-lg-4">
-                <div class="display-word"><gender-coloured-word word="{{ revealedWord }}"/>&nbsp;</div>
-            </div>
-            <div id="buttons" class="col-lg-2 revise-buttons">
-                <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
-                <button class="btn btn-info" ng-click="showHint(word[lang_right], revealedWord.length)" ng-disabled="blockButtons">hint</button>
-            </div>
-        </div>
-
+    <div id="revise-header">
+        <h2><span id="revised-word-count">{{ index }} / {{ totalWords }}</span> words revised </h2>
+        <a ng-click="switchLanguage()"><h2>{{ lang_left }} - {{ lang_right }}</h2></a>
+        <a ng-click="switchSortOrder()"><h2>{{ sortOrder }}</h2></a>
+        <a href="/"><h2>vocab</h2></a>
     </div>
 
-
-    <div id="bottom" class="container">
-
-        <div id="word-list" class="row centred" ng-repeat="word in revealedWords">
-            <div class="col-lg-4"><gender-coloured-word word="{{ word[lang_left] }}"/></div>
-            <div class="col-lg-4"><gender-coloured-word word="{{ word[lang_right] }}"/></div>
-            <div class="col-lg-2"/>
+    <div id="word-form">
+        <div class="display-word">
+            <gender-coloured-word word="{{ word[lang_left] }}"/>
         </div>
+        <div class="display-word">
+            <gender-coloured-word word="{{ revealedWord }}"/>
+            &nbsp;</div>
+        <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
+        <button class="btn btn-info" ng-click="showHint(word[lang_right], revealedWord.length)" ng-disabled="blockButtons">hint</button>
+    </div>
 
+</div>
+
+<div id="bottom">
+
+    <div id="word-list" ng-repeat="word in revealedWords">
+        <gender-coloured-word word="{{ word[lang_left] }}"/>
+        <gender-coloured-word word="{{ word[lang_right] }}"/>
     </div>
 
 </div>
