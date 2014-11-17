@@ -2,3 +2,5 @@ node_modules/
 public/libs/
 .idea/
 nohup.out
+.sass-cache/
+public/css/*
