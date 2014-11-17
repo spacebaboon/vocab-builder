@@ -20,23 +20,19 @@ module.exports = function (grunt) {
 
         sass: {
             dist: {
-                //files: {
-                //    'public/css/words.css':'public/scss/words.scss'
-                //},
                 files: [{
                     expand: true,
-                    cwd: 'public/scss',
+                    cwd: 'public/scss/',
                     src: 'words.scss',
                     dest: 'public/css/',
                     ext: '.css'
                 }],
 
                 options: {
-                    bundleExec: false, // runs the sass with "bundle exec sass" using Bundler (http://bundler.io/)
                     loadPath: ['public/scss', 'public/bower_components'],
-                    style: 'compressed',
-                    trace: true,
-                    require: ['bourbon', 'neat']
+                    style: 'nested',
+                    trace: true
+                    //require: ['bourbon', 'neat']
                 }
             }
         },
@@ -44,7 +40,7 @@ module.exports = function (grunt) {
         watch: {
             css: {
                 files: 'public/scss/**/*.scss',
-                tasks: ['sass', 'csslint']
+                tasks: ['scsslint', 'sass', 'csslint']
             },
             js: {
                 files: 'public/scripts/**/*.js',
@@ -53,7 +49,7 @@ module.exports = function (grunt) {
         },
 
         jshint: {
-            files: ['newShopStatic/_assets/js/modules/*.js'],
+            files: ['public/scripts/**/*.js'],
             options: {
                 jshintrc: '.jshintrc'
             }
@@ -61,10 +57,16 @@ module.exports = function (grunt) {
 
         csslint: {
             base: {
-                src: ['newShopStatic/_assets/css/**/*.css']
-            },
+                src: ['public/css/**/*.css']
+            }
+        },
+
+        scsslint: {
+            allFiles: [
+                'public/scss/**/*.scss'
+            ],
             options: {
-                csslintrc: '.csslintrc'
+                colorizeOutput: true
             }
         },
 

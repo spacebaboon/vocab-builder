@@ -6,6 +6,6 @@ angular.module('vocabApp')
             restrict: 'E',
             templateUrl: '../views/directives/tabbedNavigation.html',
             replace: true,
-            scope: { tab: "@tab"}
+            scope: { tab: '@tab'}
         };
-    })
+    });

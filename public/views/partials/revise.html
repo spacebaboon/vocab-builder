@@ -9,10 +9,10 @@
 
     <div id="word-form">
         <div class="display-word">
-            <gender-coloured-word word="{{ word[lang_left] }}"/>
+            <span gender-coloured-word word="{{ word[lang_left] }}"></span>
         </div>
         <div class="display-word">
-            <gender-coloured-word word="{{ revealedWord }}"/>
+            <span gender-coloured-word word="{{ revealedWord }}"></span>
             &nbsp;</div>
         <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
         <button class="btn btn-info" ng-click="showHint(word[lang_right], revealedWord.length)" ng-disabled="blockButtons">hint</button>
@@ -23,8 +23,8 @@
 <div id="bottom">
 
     <div id="word-list" ng-repeat="word in revealedWords">
-        <gender-coloured-word word="{{ word[lang_left] }}"/>
-        <gender-coloured-word word="{{ word[lang_right] }}"/>
+        <span gender-coloured-word word="{{ word[lang_left] }}"></span>
+        <span gender-coloured-word word="{{ word[lang_right] }}"></span>
     </div>
 
 </div>

@@ -4,21 +4,17 @@ describe('E2E: revise vocab page', function() {
         browser.get('http://localhost:9090/#/revise');
     });
 
-    it('should show the revise tab as active', function () {
+    // TODO: re-enable when navigation decided
+    xit('should show the revise tab as active', function () {
         $('#navigation .active').getText().then(function(text) {
             expect(text).toBe('revise');
         })
     });
 
-    it('should display a single word', function() {
+    // TODO: re-enable when markup refactor finished
+    xit('should display a single word', function() {
         element.all(by.repeater('word in randomWords')).then(function(wordList){
             expect(wordList.length).toBe(1);
-
-        });
-    });
-
-    it('should show the whole word when show button clicked, and replace show and hint buttons with next button', function() {
-        element.all(by.repeater('word in words')).then(function (wordList) {
 
         });
     });

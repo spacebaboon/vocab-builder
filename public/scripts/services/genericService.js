@@ -1,6 +1,7 @@
-/* Generic Services */
+'use strict';
+
 angular.module('vocabApp')
-    .factory("genericService", function () {
+    .factory('genericService', function () {
         return {
 
             shuffle: function (array) {
@@ -40,5 +41,5 @@ angular.module('vocabApp')
                         return 'unknown';
                 }
             }
-        }
+        };
     });

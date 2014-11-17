@@ -13,8 +13,8 @@
     </form>
 
     <!-- WORD LIST -->
-    <div id="word-list" class="row centred" ng-repeat="word in words | orderBy:'_id':true">
-        <gender-coloured-word word="{{ word.german }}"/>
+    <div id="word-list" ng-repeat="word in words | orderBy:'_id':true">
+        <span gender-coloured-word word="{{ word.german }}"></span>
         {{ word.english }}
         <a ng-click="deleteWord(word._id)" class="left-link">delete</a>
     </div>
