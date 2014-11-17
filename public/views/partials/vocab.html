@@ -1,22 +1,23 @@
-<div>
 
-    <div id="revise-header">
+    <div class="revise-header">
         <h2><span id="word-count">{{ words.length }}</span> Words</h2>
         <a href="/#/revise"><h2>revise</h2></a>
     </div>
 
     <!-- FORM TO CREATE WORDS -->
-    <form>
-        <input type="text" id="german-input" class="display-word input-word input-lg text-center" placeholder="German" ng-model="formData.german">
-        <input type="text" id="english-input" class="display-word input-word input-lg text-center" placeholder="English" ng-model="formData.english">
-        <button type="submit" class="btn btn-success" id="add-button" ng-click="createWord()" onclick='$("html, body").animate({ scrollTop: 0 }, "slow"); $("#german-input").focus();'>Add</button>
-    </form>
-
-    <!-- WORD LIST -->
-    <div id="word-list" ng-repeat="word in words | orderBy:'_id':true">
-        <span gender-coloured-word word="{{ word.german }}"></span>
-        {{ word.english }}
-        <a ng-click="deleteWord(word._id)" class="left-link">delete</a>
+    <div class="new-word-form">
+        <form>
+            <input type="text" id="german-input" class="display-word input-word input-lg text-center" placeholder="German" ng-model="formData.german">
+            <input type="text" id="english-input" class="display-word input-word input-lg text-center" placeholder="English" ng-model="formData.english">
+            <button type="submit" class="btn btn-success" id="add-button" ng-click="createWord()" onclick='$("html, body").animate({ scrollTop: 0 }, "slow"); $("#german-input").focus();'>Add</button>
+        </form>
     </div>
 
-</div>
+    <!-- WORD LIST -->
+    <div id="word-list">
+        <div class="word-row" ng-repeat="word in words | orderBy:'_id':true">
+            <span gender-coloured-word word="{{ word.german }}"></span>
+            <span class="word">{{ word.english }}</span>
+            <span class="button"><a ng-click="deleteWord(word._id)" class="left-link">delete</a></span>
+        </div>
+    </div>

@@ -1,20 +1,43 @@
 body {
-  background-color: $dark-grey;
+  font: 1.2em Helvetica, sans-serif;
+  background-color: $bg-dark;
+
 }
 
-.masculine {
-  color: $masculine-colour
-}
+.content {
+  background-color: $fg-light;
+  color: $plain-text-colour;
+  width: 800px;
+  height: 100%;
+  margin: 20px auto;
+  padding: 20px 30px;
 
-.feminine {
-  color: $feminine-colour
-}
+  .word-row {
 
-.neuter {
-  color: $neuter-colour
-}
+    padding: 5px 0;
+    margin: 5px 0;
+    .word {
+      text-align: center;
+      display: inline-block;
+      width: 15em;
+    }
 
-.unknown {
-  color: $unknown-colour
-}
+  }
 
+  .masculine {
+    color: $masculine-colour;
+  }
+
+  .feminine {
+    color: $feminine-colour;
+  }
+
+  .neuter {
+    color: $neuter-colour;
+  }
+
+  .unknown {
+    color: $plain-text-colour;
+  }
+
+}
