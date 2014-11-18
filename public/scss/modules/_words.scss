@@ -16,12 +16,20 @@ body {
 
     padding: 5px 0;
     margin: 5px 0;
-    .word {
-      text-align: center;
-      display: inline-block;
-      width: 15em;
-    }
 
+    .button {
+      font-size: 0.8em;
+    }
+  }
+
+  .word {
+    text-align: center;
+    display: inline-block;
+    width: 15em;
+  }
+
+  .revise-word-form div {
+    display: inline-block;
   }
 
   .masculine {

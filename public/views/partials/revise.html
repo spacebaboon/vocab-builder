@@ -1,17 +1,17 @@
 <div>
 
-    <div id="revise-header">
+    <div class="revise-header">
         <h2><span id="revised-word-count">{{ index }} / {{ totalWords }}</span> words revised </h2>
         <a ng-click="switchLanguage()"><h2>{{ lang_left }} - {{ lang_right }}</h2></a>
         <a ng-click="switchSortOrder()"><h2>{{ sortOrder }}</h2></a>
         <a href="/"><h2>vocab</h2></a>
     </div>
 
-    <div id="word-form">
-        <div class="display-word">
+    <div class="revise-word-form">
+        <div class="word">
             <span gender-coloured-word word="{{ word[lang_left] }}"></span>
         </div>
-        <div class="display-word">
+        <div class="word">
             <span gender-coloured-word word="{{ revealedWord }}"></span>
             &nbsp;</div>
         <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
@@ -20,11 +20,11 @@
 
 </div>
 
-<div id="bottom">
+<div class="word-list">
 
-    <div id="word-list" ng-repeat="word in revealedWords">
-        <span gender-coloured-word word="{{ word[lang_left] }}"></span>
-        <span gender-coloured-word word="{{ word[lang_right] }}"></span>
+    <div class="word-row" ng-repeat="word in revealedWords">
+        <span class="word" gender-coloured-word word="{{ word[lang_left] }}"></span>
+        <span class="word" gender-coloured-word word="{{ word[lang_right] }}"></span>
     </div>
 
 </div>
