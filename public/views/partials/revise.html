@@ -1,30 +1,25 @@
-<div>
-
-    <div class="revise-header">
-        <h2><span id="revised-word-count">{{ index }} / {{ totalWords }}</span> words revised </h2>
+<div class="revise">
+    <div class="header">
+        <!--<h2><span id="revised-word-count">{{ index }} / {{ totalWords }}</span> words revised </h2>-->
         <a ng-click="switchLanguage()"><h2>{{ lang_left }} - {{ lang_right }}</h2></a>
         <a ng-click="switchSortOrder()"><h2>{{ sortOrder }}</h2></a>
         <a href="/"><h2>vocab</h2></a>
     </div>
 
-    <div class="revise-word-form">
-        <div class="word">
+    <div class="content">
+
+        <div class="revise-word-form">
             <span gender-coloured-word word="{{ word[lang_left] }}"></span>
-        </div>
-        <div class="word">
             <span gender-coloured-word word="{{ revealedWord }}"></span>
-            &nbsp;</div>
-        <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
-        <button class="btn btn-info" ng-click="showHint(word[lang_right], revealedWord.length)" ng-disabled="blockButtons">hint</button>
+            <button class="btn btn-success" ng-click="showWord(word[lang_right])" ng-disabled="blockButtons">show</button>
+            <button class="btn btn-info" ng-click="showHint(word[lang_right], revealedWord.length)" ng-disabled="blockButtons">hint</button>
+        </div>
+
+        <div class="word-list">
+            <div class="word-row revise" ng-repeat="word in revealedWords">
+                <span class="word" gender-coloured-word word="{{ word[lang_left] }}"></span>
+                <span class="word" gender-coloured-word word="{{ word[lang_right] }}"></span>
+            </div>
+        </div>
     </div>
-
-</div>
-
-<div class="word-list">
-
-    <div class="word-row" ng-repeat="word in revealedWords">
-        <span class="word" gender-coloured-word word="{{ word[lang_left] }}"></span>
-        <span class="word" gender-coloured-word word="{{ word[lang_right] }}"></span>
-    </div>
-
 </div>

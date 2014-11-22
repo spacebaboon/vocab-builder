@@ -1,51 +1,67 @@
 body {
   font: 1.2em Helvetica, sans-serif;
   background-color: $bg-dark;
-
+  height: 100%;
 }
 
-.content {
+.wrapper {
   background-color: $fg-light;
   color: $plain-text-colour;
   width: 800px;
-  height: 100%;
+  min-height: 100%;
   margin: 20px auto;
-  padding: 20px 30px;
-
-  .word-row {
-
-    padding: 5px 0;
-    margin: 5px 0;
-
-    .button {
-      font-size: 0.8em;
-    }
-  }
-
-  .word {
-    text-align: center;
-    display: inline-block;
-    width: 15em;
-  }
-
-  .revise-word-form div {
-    display: inline-block;
-  }
-
-  .masculine {
-    color: $masculine-colour;
-  }
-
-  .feminine {
-    color: $feminine-colour;
-  }
-
-  .neuter {
-    color: $neuter-colour;
-  }
-
-  .unknown {
-    color: $plain-text-colour;
-  }
-
 }
+
+.header {
+  background-color: $fg-grey;
+  padding: 20px 30px;
+}
+
+.content {
+  padding: 30px;
+}
+
+.word-row {
+  padding: 5px 0;
+  margin: 5px 0;
+
+  &:nth-child(odd) {
+    background-color: $fg-grey;
+  }
+}
+
+.button {
+  font-size: 0.8em;
+}
+
+input.word {
+  font-size: 1em;
+}
+
+.word {
+  text-align: center;
+  display: inline-block;
+  width: 15em;
+  vertical-align: bottom;
+}
+
+.revise-form div {
+  display: inline-block;
+}
+
+.masculine {
+  color: $masculine-colour;
+}
+
+.feminine {
+  color: $feminine-colour;
+}
+
+.neuter {
+  color: $neuter-colour;
+}
+
+.unknown {
+  color: $plain-text-colour;
+}
+
