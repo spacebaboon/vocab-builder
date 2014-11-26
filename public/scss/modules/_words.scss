@@ -14,7 +14,37 @@ body {
 
 .header {
   background-color: $fg-grey;
-  padding: 20px 30px;
+  padding: 20px 30px 0;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  font-size: 1.5em;
+  height: 30px;
+  background-color: inherit;
+  text-decoration: none;
+  a: link {
+    text-decoration: none
+  }
+;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+  }
+
+  li {
+    display: inline-block;
+    background-color: $fg-light;
+    padding: 0 20px;
+    border: 1px solid black;
+
+    .active {
+      background-color: darken($fg-light, 20%);
+      border-bottom: 1px solid white;
+    }
+  }
 }
 
 .content {

@@ -18,15 +18,30 @@ module.exports = function (config) {
                 'public/libs/angular/angular.js',
                 'public/libs/angular-route/angular-route.js',
                 'public/libs/angular-mocks/angular-mocks.js',
-//                'public/scripts/**/*.js',
                 'public/scripts/main.js',
-                'public/scripts/controllers/revise.js',
-                'public/scripts/controllers/vocab.js',
-                'public/scripts/services/genericService.js',
-                'test/unit/controllers/revise.spec.js',
-                'test/unit/services/genericServices.spec.js'
+                'public/scripts/controllers/*.js',
+                'public/scripts/services/*.js',
+                'public/scripts/directives/*.js',
+                //'test/unit/**/*.spec.js',
+                'test/unit/services/*.spec.js',
+                'test/unit/controllers/*.spec.js',
+                'test/unit/directives/*.spec.js'
+                //'*.js',
+                //'*.html',
+                //'*.html.ext',
+                //if you wanna load template files in nested directories, you must use this
+                //'**/*.html'
             ],
 
+            //ngHtml2JsPreprocessor: {
+            //    // strip this from the file path
+            //    stripPrefix: 'public/',
+            //    stripSufix: '.ext',
+            //    // prepend this to the
+            //    prependPrefix: 'served/',
+            //
+            //    moduleName: 'foo'
+            //},
 
             // list of files to exclude
             exclude: [
@@ -36,6 +51,7 @@ module.exports = function (config) {
             // preprocess matching files before serving them to the browser
             // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
             preprocessors: {
+                //'**/*.html': ['ng-html2js']
             },
 
 
@@ -59,7 +75,7 @@ module.exports = function (config) {
 
 
             // enable / disable watching file and executing tests whenever any file changes
-            autoWatch: false,
+            autoWatch: true,
 
 
             // start these browsers

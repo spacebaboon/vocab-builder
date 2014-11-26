@@ -1,0 +1,8 @@
+<div class="navbar">
+    <ul>
+        <li ng-repeat="(name, url) in { 'vocab':'/', 'revise': '/#/revise'}">
+            <a href="{{url}}" ng-if="name !== active">{{name}}</a>
+            <span ng-if="name === active">{{name}}</span>
+        </li>
+    </ul>
+</div>

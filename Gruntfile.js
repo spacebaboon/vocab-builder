@@ -45,6 +45,10 @@ module.exports = function (grunt) {
             js: {
                 files: 'public/scripts/**/*.js',
                 tasks: ['jshint']
+            },
+            karma: {
+                files: 'test/unit/**/*.spec.js',
+                tasks: ['karma']
             }
         },
 

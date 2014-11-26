@@ -1,11 +1,12 @@
-'use strict';
-
 angular.module('vocabApp')
-    .directive('tabbedNavigation', function() {
+    .directive('tabbedNavigation', function () {
+        'use strict';
+
         return {
-            restrict: 'E',
-            templateUrl: '../views/directives/tabbedNavigation.html',
+            templateUrl: 'views/partials/tabbedNavigation.html',
             replace: true,
-            scope: { tab: '@tab'}
+            scope: {
+                active: '@tab'
+            }
         };
     });
