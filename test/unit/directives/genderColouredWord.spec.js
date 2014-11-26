@@ -14,14 +14,14 @@ ddescribe('tabs', function() {
     }));
 
 
-    it('should render the word as the span text', inject(function($compile, $rootScope) {
+    iit('should render the word as the span text', inject(function($compile, $rootScope) {
         var wordSpan = elm.find('span')[0];
 
         expect(wordSpan.innerText).toBe('der Herd');
     }));
 
 
-    iit('should add gender class to word', inject(function($compile, $rootScope) {
+    it('should add gender class to word', inject(function($compile, $rootScope) {
         var wordSpan = elm.find('span')[0];
 
         expect(wordSpan.classList).toContain('masculine');

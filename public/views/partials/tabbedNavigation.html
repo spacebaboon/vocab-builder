@@ -1,6 +1,6 @@
 <div class="navbar">
     <ul>
-        <li ng-repeat="(name, url) in { 'vocab':'/', 'revise': '/#/revise'}">
+        <li ng-repeat="(name, url) in { 'vocab':'/', 'revise': '/#/revise'}" ng-class="{active: name === active}">
             <a href="{{url}}" ng-if="name !== active">{{name}}</a>
             <span ng-if="name === active">{{name}}</span>
         </li>
