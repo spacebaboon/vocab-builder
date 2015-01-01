@@ -26,6 +26,25 @@
                     console.log('Error: ' + data);
                 });
 
+            document.onkeydown = checkKey;
+
+            function checkKey(e) {
+
+                e = e || window.event;
+
+                if (e.keyCode == '83') {
+                    // s = show word
+                    $scope.showWord($scope.word[$scope.lang_right]);
+                    $scope.$apply();
+                }
+                else if (e.keyCode == '72') {
+                    // h = hint
+                    $scope.showHint($scope.word[$scope.lang_right], $scope.revealedWord.length);
+                    $scope.$apply();
+                }
+
+            }
+
 
             $scope.showWord = function (word) {
                 $scope.revealedWord = word;

@@ -1,8 +1,14 @@
 <div class="revise">
     <div class="header">
         <div tabbed-navigation tab="revise"></div>
-        <a ng-click="switchLanguage()"><h2>{{ lang_left }} - {{ lang_right }}</h2></a>
-        <a ng-click="switchSortOrder()"><h2>{{ sortOrder }}</h2></a>
+    </div>
+
+    <div class="options-bar">
+        <ul>
+            <li ng-click="switchLanguage()">{{ lang_left }} - {{ lang_right }}</li>
+            <li ng-click="switchSortOrder()">Order: {{ sortOrder }}</li>
+            <li><a ng-click="openOptions()">options</a></li>
+        </ul>
     </div>
 
     <div class="content">
