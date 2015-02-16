@@ -8,6 +8,10 @@ To do list:
 
 * Style pages to look like lined exercise book, with tusj font for headings.
 
+  * ~~blue lines on vocab page~~
+
+  * Style revise page to have empty lines regardless of content.
+
 * Auto suggest duplicates of both language words when adding words.
 
 * If more than one translation of word, find way to show/test all.
