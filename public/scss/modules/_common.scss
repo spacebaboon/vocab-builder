@@ -12,15 +12,17 @@
 
 body {
   font: 1.2em Helvetica, sans-serif;
-  background-color: $dark-grey;
+  background-color: darken($lt-grey, 10);
   height: 100%;
   box-sizing: border-box;
 }
 
+.sketchy {
+  font-family: 'fff_tusjbold', Helvetica, sans-serif;
+}
+
 .logo {
-  font-family: 'fff_tusjbold';
   color: $dark-grey;
-//  background-color: white;
   font-size: 4em;
   float: right;
 }
@@ -31,11 +33,11 @@ body {
   width: 800px;
   min-height: 100%;
   margin: 20px auto;
+  border-radius: 20px;
 }
 
 .header {
   position: relative;
-//  background-color: $med-grey;
   padding: 20px 30px 0;
   border-bottom: 1px solid black;
   height: 100px;
@@ -43,7 +45,6 @@ body {
 
 .navbar {
   position: absolute;
-  font-size: 1.5em;
   height: 40px;
   background-color: inherit;
   bottom: 0;
@@ -56,17 +57,18 @@ body {
   }
 
   li {
+    font-size: 1.2em;
     display: inline-block;
-    padding: 0 20px;
+    padding: 10px 25px;
     margin: 0 5px -1px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: darken($lt-grey, 20%);
+    background-color: $lt-grey;
     border: 1px solid black;
 
     &.active {
-      background-color: $lt-grey;
-      border-color: black black $lt-grey;
+      background-color: $fg-light;
+      border-color: black black $fg-light;
 
     }
   }
@@ -80,13 +82,19 @@ body {
   padding: 5px 0;
   margin: 5px 0;
 
+  border-bottom: 1px solid #41b5ff;
+
   &:nth-child(odd) {
-    background-color: $fg-grey;
+//    background-color: $fg-grey;
   }
 }
 
 .button {
   font-size: 0.8em;
+}
+
+.action {
+  cursor: pointer;
 }
 
 input.word {
@@ -120,3 +128,21 @@ input.word {
   color: $plain-text-colour;
 }
 
+.plain-link {
+
+  a:link {
+    text-decoration: none;
+    color: $black;
+  }
+  a:visited {
+    text-decoration: none;
+    color: $black;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+}

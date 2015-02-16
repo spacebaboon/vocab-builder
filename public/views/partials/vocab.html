@@ -1,6 +1,6 @@
 <div class="vocab">
     <div class="header">
-        <div class="logo">auf Deutsch</div>
+        <div class="logo sketchy">auf Deutsch</div>
         <div tabbed-navigation tab="vocab"></div>
     </div>
 
@@ -20,7 +20,7 @@
             <div class="word-row" ng-repeat="word in words | orderBy:'_id':true">
                 <span gender-coloured-word word="{{ word.german }}"></span>
                 <span class="word">{{ word.english }}</span>
-                <span class="action"><a ng-click="deleteWord(word._id)">delete</a></span>
+                <span class="action" title="delete"><a ng-click="deleteWord(word._id)"><i class="fa fa-trash"></i></a></span>
             </div>
         </div>
     </div>

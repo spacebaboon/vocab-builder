@@ -32,7 +32,6 @@ module.exports = function (grunt) {
                     loadPath: ['public/scss', 'public/bower_components'],
                     style: 'nested',
                     trace: true
-                    //require: ['bourbon', 'neat']
                 }
             }
         },
@@ -40,7 +39,8 @@ module.exports = function (grunt) {
         watch: {
             css: {
                 files: 'public/scss/**/*.scss',
-                tasks: ['scsslint', 'sass', 'csslint']
+                tasks: ['sass']
+                //tasks: ['scsslint', 'sass']
             },
             js: {
                 files: 'public/scripts/**/*.js',
@@ -56,12 +56,6 @@ module.exports = function (grunt) {
             files: ['public/scripts/**/*.js'],
             options: {
                 jshintrc: '.jshintrc'
-            }
-        },
-
-        csslint: {
-            base: {
-                src: ['public/css/**/*.css']
             }
         },
 
