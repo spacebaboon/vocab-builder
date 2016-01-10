@@ -1,4 +1,3 @@
-{ "_id" : { "$oid" : "53d677e39fb82d482d000001" }, "english" : "house", "german" : "das Haus", "__v" : 0 }
 { "_id" : { "$oid" : "53d677f29fb82d482d000002" }, "english" : "easy", "german" : "einfach", "__v" : 0 }
 { "_id" : { "$oid" : "53d67c9b9fb82d482d000003" }, "english" : "tree", "german" : "der Baum", "__v" : 0 }
 { "_id" : { "$oid" : "53d67cab9fb82d482d000004" }, "english" : "horse", "german" : "das Pferd", "__v" : 0 }
@@ -91,7 +90,6 @@
 { "_id" : { "$oid" : "53f1351092f58c08f59471b5" }, "german" : "schätzen", "english" : "to estimate" }
 { "_id" : { "$oid" : "53f1351092f58c08f59471b6" }, "german" : "die Handlung", "english" : "the act" }
 { "_id" : { "$oid" : "53f1351092f58c08f59471b7" }, "german" : "regelmäßig", "english" : "regular" }
-{ "_id" : { "$oid" : "53f1351092f58c08f59471b8" }, "german" : "Gemeinschaft", "english" : "community" }
 { "_id" : { "$oid" : "53f1351092f58c08f59471b9" }, "german" : "fördern", "english" : "to promote" }
 { "_id" : { "$oid" : "53f1351092f58c08f59471ba" }, "german" : "leisten", "english" : "to achieve" }
 { "_id" : { "$oid" : "53f1351092f58c08f59471bb" }, "german" : "das Opfer", "english" : "victim" }
@@ -679,10 +677,187 @@
 { "_id" : { "$oid" : "545f6fcdae9db8050ad76cb7" }, "english" : "to steal", "german" : "klauen", "__v" : 0 }
 { "_id" : { "$oid" : "545f6ff1ae9db8050ad76cb8" }, "english" : "jealousy", "german" : "die Eifersucht", "__v" : 0 }
 { "_id" : { "$oid" : "545f7006ae9db8050ad76cb9" }, "english" : "to withstand", "german" : "widerstehen", "__v" : 0 }
-{ "_id" : { "$oid" : "545f704cae9db8050ad76cba" }, "english" : "in twos", "german" : "zu zweit", "__v" : 0 }
 { "_id" : { "$oid" : "545f7060ae9db8050ad76cbb" }, "english" : "to touch", "german" : "betasten", "__v" : 0 }
 { "_id" : { "$oid" : "545f70bfae9db8050ad76cbc" }, "english" : "intrusive", "german" : "aufdringlich", "__v" : 0 }
 { "_id" : { "$oid" : "545f70ecae9db8050ad76cbd" }, "english" : "to guess", "german" : "erraten", "__v" : 0 }
 { "_id" : { "$oid" : "545f7109ae9db8050ad76cbe" }, "english" : "to doubt", "german" : "weigern", "__v" : 0 }
 { "_id" : { "$oid" : "545f71b7ae9db8050ad76cbf" }, "english" : "bad tempered", "german" : "schlecht gelaunt", "__v" : 0 }
 { "_id" : { "$oid" : "545f7280ae9db8050ad76cc0" }, "english" : "tiptoes", "german" : "die Zehenspitzen", "__v" : 0 }
+{ "_id" : { "$oid" : "545f76a4350bd57f316fb929" }, "english" : "slow motion", "german" : "die Zeitlupe", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7723350bd57f316fb92b" }, "english" : "to limp", "german" : "hinken", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7818350bd57f316fb92c" }, "english" : "in turn", "german" : "wiederum", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7ac7350bd57f316fb92d" }, "english" : "determination", "german" : "die Ermittlung", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7c6a350bd57f316fb92e" }, "english" : "cookie", "german" : "das Plätzchen", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7ee7350bd57f316fb92f" }, "english" : "to screw up", "german" : "vermasseln", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7f58350bd57f316fb930" }, "english" : "mean, nasty", "german" : "gemein", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7f88350bd57f316fb931" }, "english" : "because of him", "german" : "seinetwegen", "__v" : 0 }
+{ "_id" : { "$oid" : "545f7faf350bd57f316fb932" }, "english" : "because of her", "german" : "ihretwegen", "__v" : 0 }
+{ "_id" : { "$oid" : "545f802a350bd57f316fb933" }, "english" : "to hiss", "german" : "fauchen", "__v" : 0 }
+{ "_id" : { "$oid" : "545f8042350bd57f316fb934" }, "english" : "dungeon", "german" : "der Kerker", "__v" : 0 }
+{ "_id" : { "$oid" : "545f80f0350bd57f316fb935" }, "english" : "to demand", "german" : "fordern", "__v" : 0 }
+{ "_id" : { "$oid" : "545f81fa350bd57f316fb936" }, "english" : "porridge", "german" : "der Haferbrei", "__v" : 0 }
+{ "_id" : { "$oid" : "545f8322350bd57f316fb937" }, "english" : "curious", "german" : "gespannt", "__v" : 0 }
+{ "_id" : { "$oid" : "545f838d350bd57f316fb938" }, "english" : "defence", "german" : "die Verteidigung", "__v" : 0 }
+{ "_id" : { "$oid" : "545f86c3350bd57f316fb939" }, "english" : "jelly", "german" : "der Wackelpeter", "__v" : 0 }
+{ "_id" : { "$oid" : "545f86eb350bd57f316fb93a" }, "english" : "intolerable", "german" : "unerträglich", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5e63491d65b719747021" }, "english" : "to shake", "german" : "erschüttern", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5e6c491d65b719747022" }, "english" : "taxation", "german" : "die Besteuerung", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5e76491d65b719747023" }, "english" : "trigger", "german" : "der Auslöser", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5e7f491d65b719747024" }, "english" : "issue", "german" : "die Angelegenheit", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5e8e491d65b719747025" }, "english" : "to remove", "german" : "beseitigen", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5e95491d65b719747026" }, "english" : "all the", "german" : "jeglichen", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5ea0491d65b719747027" }, "english" : "troubled", "german" : "beunruhige", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5eb0491d65b719747029" }, "english" : "secretly", "german" : "ingesheim", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5ebe491d65b71974702a" }, "english" : "justice", "german" : "die Gerechtigkeit", "__v" : 0 }
+{ "_id" : { "$oid" : "546a5ec4491d65b71974702b" }, "english" : "to resolve", "german" : "beizulegen", "__v" : 0 }
+{ "_id" : { "$oid" : "546a6e5aa00738a72538ee6b" }, "english" : "event", "german" : "die Ereignis", "__v" : 0 }
+{ "_id" : { "$oid" : "546b0921362dc6dd03dc8321" }, "english" : "to confirm", "german" : "bestätigen", "__v" : 0 }
+{ "_id" : { "$oid" : "546b094e362dc6dd03dc8322" }, "english" : "corpse", "german" : "die Leiche", "__v" : 0 }
+{ "_id" : { "$oid" : "546b0967362dc6dd03dc8323" }, "english" : "revenge", "german" : "die Rache", "__v" : 0 }
+{ "_id" : { "$oid" : "546c58e75f695e1c6b130853" }, "english" : "economist", "german" : "der Ökonom", "__v" : 0 }
+{ "_id" : { "$oid" : "546c59115f695e1c6b130854" }, "english" : "opinion", "german" : "die Meinung", "__v" : 0 }
+{ "_id" : { "$oid" : "546c591a5f695e1c6b130855" }, "english" : "opinion", "german" : "das Gutachten", "__v" : 0 }
+{ "_id" : { "$oid" : "546c59265f695e1c6b130856" }, "english" : "opinion", "german" : "die Stellungnahme", "__v" : 0 }
+{ "_id" : { "$oid" : "546c59665f695e1c6b130857" }, "english" : "design", "german" : "der Entwurf", "__v" : 0 }
+{ "_id" : { "$oid" : "547480dda7e2bc0000e256ee" }, "english" : "characteristic", "german" : "das Merkmal", "__v" : 0 }
+{ "_id" : { "$oid" : "5476f3f06ab4590000f542f0" }, "english" : "Tom, Dick and Harry", "german" : "Hinz und Kunz", "__v" : 0 }
+{ "_id" : { "$oid" : "54a9284f1cfab2d80450033a" }, "english" : "predicament", "german" : "die Zwangslage", "__v" : 0 }
+{ "_id" : { "$oid" : "54cffa53a563a33b24c0544c" }, "english" : "to digest", "german" : "verdauen", "__v" : 0 }
+{ "_id" : { "$oid" : "54cffa6aa563a33b24c0544d" }, "english" : "to devour", "german" : "verschlingen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d131e4c3681bd554e18ef" }, "english" : "to look up", "german" : "aufblicken", "__v" : 0 }
+{ "_id" : { "$oid" : "568d13364c3681bd554e18f0" }, "english" : "glittering", "german" : "glänzend", "__v" : 0 }
+{ "_id" : { "$oid" : "568d134b4c3681bd554e18f1" }, "english" : "straightaway", "german" : "snurstracks", "__v" : 0 }
+{ "_id" : { "$oid" : "568d135d4c3681bd554e18f2" }, "english" : "overwhelmed", "german" : "überwaltigt", "__v" : 0 }
+{ "_id" : { "$oid" : "568d13724c3681bd554e18f3" }, "english" : "emotion", "german" : "die Rührung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d13854c3681bd554e18f4" }, "english" : "to bury", "german" : "vergraben", "__v" : 0 }
+{ "_id" : { "$oid" : "568d13f44c3681bd554e18f5" }, "english" : "first of all", "german" : "zuallererst", "__v" : 0 }
+{ "_id" : { "$oid" : "568d141e4c3681bd554e18f6" }, "english" : "idea", "german" : "die Vorstellung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d14414c3681bd554e18f7" }, "english" : "pug", "german" : "der Mops", "__v" : 0 }
+{ "_id" : { "$oid" : "568d14534c3681bd554e18f8" }, "english" : "likewise", "german" : "ebenfalls", "__v" : 0 }
+{ "_id" : { "$oid" : "568d147e4c3681bd554e18f9" }, "english" : "loudmouth", "german" : "das Großmaul", "__v" : 0 }
+{ "_id" : { "$oid" : "568d149d4c3681bd554e18fa" }, "english" : "brash", "german" : "dreist", "__v" : 0 }
+{ "_id" : { "$oid" : "568d14ca4c3681bd554e18fb" }, "english" : "compartment", "german" : "das Abteil", "__v" : 0 }
+{ "_id" : { "$oid" : "568d14e64c3681bd554e18fc" }, "english" : "contemptuously", "german" : "verächtlich", "__v" : 0 }
+{ "_id" : { "$oid" : "568d14fa4c3681bd554e18fd" }, "english" : "guts", "german" : "die Eingeweide", "__v" : 0 }
+{ "_id" : { "$oid" : "568d151f4c3681bd554e18fe" }, "english" : "to freeze", "german" : "gefrieren", "__v" : 0 }
+{ "_id" : { "$oid" : "568d152d4c3681bd554e18ff" }, "english" : "matt", "german" : "matter", "__v" : 0 }
+{ "_id" : { "$oid" : "568d15574c3681bd554e1900" }, "english" : "to cheer", "german" : "aufmuntern", "__v" : 0 }
+{ "_id" : { "$oid" : "568d15674c3681bd554e1901" }, "english" : "shaky", "german" : "zittrig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d15774c3681bd554e1902" }, "english" : "clearly", "german" : "eindeutig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d15a44c3681bd554e1903" }, "english" : "feel", "german" : "zumute", "__v" : 0 }
+{ "_id" : { "$oid" : "568d15b24c3681bd554e1904" }, "english" : "to deepen", "german" : "vertiefen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d15c24c3681bd554e1905" }, "english" : "messed up", "german" : "verkorksten", "__v" : 0 }
+{ "_id" : { "$oid" : "568d15d94c3681bd554e1906" }, "english" : "approximately", "german" : "ungefähr", "__v" : 0 }
+{ "_id" : { "$oid" : "568d19bc4c3681bd554e1907" }, "english" : "to create", "german" : "schaffen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d1a9a4c3681bd554e1908" }, "english" : "agreed", "german" : "abgesprochen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d1ae14c3681bd554e1909" }, "english" : "stupid", "german" : "bescheuert", "__v" : 0 }
+{ "_id" : { "$oid" : "568d1af64c3681bd554e190a" }, "english" : "very first", "german" : "allerersten", "__v" : 0 }
+{ "_id" : { "$oid" : "568d1b784c3681bd554e190b" }, "english" : "sprightly", "german" : "munter", "__v" : 0 }
+{ "_id" : { "$oid" : "568d1b874c3681bd554e190c" }, "english" : "strain", "german" : "die Anspannung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d1b974c3681bd554e190d" }, "english" : "noticeably", "german" : "zusehends", "__v" : 0 }
+{ "_id" : { "$oid" : "568d4f95999384da5930eba7" }, "english" : "say goodbye", "german" : "sich verabschieden", "__v" : 0 }
+{ "_id" : { "$oid" : "568d4fb5999384da5930eba8" }, "english" : "to consider, regard", "german" : "betrachten", "__v" : 0 }
+{ "_id" : { "$oid" : "568d4fc7999384da5930eba9" }, "english" : "dappled", "german" : "scheckig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d4fdf999384da5930ebaa" }, "english" : "just", "german" : "eben", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5009999384da5930ebab" }, "english" : "to pay", "german" : "abstatten", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5031999384da5930ebac" }, "english" : "stocky", "german" : "untersetzt", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5066999384da5930ebad" }, "english" : "just now", "german" : "soeben", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5083999384da5930ebae" }, "english" : "to overthrow", "german" : "stürzen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d50ff999384da5930ebaf" }, "english" : "estates", "german" : "die Ländereien", "__v" : 0 }
+{ "_id" : { "$oid" : "568d511d999384da5930ebb0" }, "english" : "to enter, penetrate", "german" : "eindringen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d513b999384da5930ebb1" }, "english" : "rogue", "german" : "der Spitzbube", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5154999384da5930ebb2" }, "english" : "puzzled", "german" : "verdutzt", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5169999384da5930ebb3" }, "english" : "balance", "german" : "das Gleichgewicht", "__v" : 0 }
+{ "_id" : { "$oid" : "568d51ce999384da5930ebb4" }, "english" : "common, mean", "german" : "gemein", "__v" : 0 }
+{ "_id" : { "$oid" : "568d51f5999384da5930ebb5" }, "english" : "braggart", "german" : "der Aufschneider", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5211999384da5930ebb6" }, "english" : "exhaustion", "german" : "die Erschöpfung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d522b999384da5930ebb7" }, "english" : "to exploit", "german" : "ausnutzen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5274999384da5930ebb8" }, "english" : "blown away", "german" : "weggeblasen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d527e999384da5930ebb9" }, "english" : "brave", "german" : "tapfer", "__v" : 0 }
+{ "_id" : { "$oid" : "568d52a0999384da5930ebba" }, "english" : "bold", "german" : "kühnen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d52c4999384da5930ebbb" }, "english" : "spiral", "german" : "die Wendel", "__v" : 0 }
+{ "_id" : { "$oid" : "568d52d7999384da5930ebbc" }, "english" : "spiral staircase", "german" : "die Wendeltreppe", "__v" : 0 }
+{ "_id" : { "$oid" : "568d52e6999384da5930ebbd" }, "english" : "dizzy", "german" : "schwindelig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5325999384da5930ebbe" }, "english" : "collaborators", "german" : "die Mitstreiter", "__v" : 0 }
+{ "_id" : { "$oid" : "568d533c999384da5930ebbf" }, "english" : "landing", "german" : "der Treppenabsatz", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5355999384da5930ebc0" }, "english" : "trapdoor", "german" : "die Falltür", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5369999384da5930ebc1" }, "english" : "brass plaque", "german" : "der Messingsschild", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5391999384da5930ebc2" }, "english" : "ladder", "german" : "die Leiter", "__v" : 0 }
+{ "_id" : { "$oid" : "568d53aa999384da5930ebc3" }, "english" : "to reach", "german" : "gelangen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d53c5999384da5930ebc4" }, "english" : "garret", "german" : "die Dachkammer", "__v" : 0 }
+{ "_id" : { "$oid" : "568d53f8999384da5930ebc5" }, "english" : "stuffed", "german" : "vollgepropft", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5425999384da5930ebc6" }, "english" : "seat cushion", "german" : "das Sitzpolster", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5459999384da5930ebc7" }, "english" : "to dive, immerse", "german" : "tauchen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5473999384da5930ebc8" }, "english" : "silk scarf", "german" : "das Seidentüch", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5491999384da5930ebc9" }, "english" : "mantelpiece", "german" : "das Kaminsims", "__v" : 0 }
+{ "_id" : { "$oid" : "568d54c8999384da5930ebca" }, "english" : "nauseating", "german" : "übelkeiterregend", "__v" : 0 }
+{ "_id" : { "$oid" : "568d54e2999384da5930ebcb" }, "english" : "stack", "german" : "der Stapel", "__v" : 0 }
+{ "_id" : { "$oid" : "568d551e999384da5930ebcc" }, "english" : "multiple", "german" : "das Vielfache", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5545999384da5930ebcd" }, "english" : "chain", "german" : "die Kette", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5597999384da5930ebce" }, "english" : "string of beads", "german" : "die Perlenschnur", "__v" : 0 }
+{ "_id" : { "$oid" : "568d55b6999384da5930ebcf" }, "english" : "clasp", "german" : "die Spange", "__v" : 0 }
+{ "_id" : { "$oid" : "568d55c7999384da5930ebd0" }, "english" : "decorated", "german" : "verziert", "__v" : 0 }
+{ "_id" : { "$oid" : "568d55d7999384da5930ebd1" }, "english" : "shy", "german" : "schüchtern", "__v" : 0 }
+{ "_id" : { "$oid" : "568d55fb999384da5930ebd2" }, "english" : "gears", "german" : "das Getriebe", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5615999384da5930ebd3" }, "english" : "to pluck", "german" : "zupfen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d562e999384da5930ebd4" }, "english" : "thoughtful", "german" : "bedächtig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5754999384da5930ebd5" }, "english" : "perplexed", "german" : "bestürzt", "__v" : 0 }
+{ "_id" : { "$oid" : "568d578c999384da5930ebd7" }, "english" : "disappearances", "german" : "die Verschwindenlassen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d57a5999384da5930ebd8" }, "english" : "unable", "german" : "unfähig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d57de999384da5930ebd9" }, "english" : "disguised", "german" : "verschleierten", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5800999384da5930ebda" }, "english" : "against", "german" : "wider", "__v" : 0 }
+{ "_id" : { "$oid" : "568d585a999384da5930ebdb" }, "english" : "beware", "german" : "sich hüten", "__v" : 0 }
+{ "_id" : { "$oid" : "568d586f999384da5930ebdc" }, "english" : "dumbfounded", "german" : "verdutzten", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5895999384da5930ebdd" }, "english" : "to gather", "german" : "versammeln", "__v" : 0 }
+{ "_id" : { "$oid" : "568d58b0999384da5930ebde" }, "english" : "curious, tense", "german" : "gespannt", "__v" : 0 }
+{ "_id" : { "$oid" : "568d58d0999384da5930ebdf" }, "english" : "silence", "german" : "das Schweigen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d58e8999384da5930ebe0" }, "english" : "relieved", "german" : "erleichtert", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5904999384da5930ebe1" }, "english" : "second", "german" : "zweit", "__v" : 0 }
+{ "_id" : { "$oid" : "568d591f999384da5930ebe2" }, "english" : "sediment", "german" : "der Bodensatz", "__v" : 0 }
+{ "_id" : { "$oid" : "568d592e999384da5930ebe3" }, "english" : "remaining", "german" : "übrig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5945999384da5930ebe5" }, "english" : "pattern", "german" : "das Muster", "__v" : 0 }
+{ "_id" : { "$oid" : "568d595f999384da5930ebe6" }, "english" : "defogging", "german" : "die Entnebelung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d597d999384da5930ebe7" }, "english" : "then let's get going", "german" : "dann leg mal los", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5996999384da5930ebe8" }, "english" : "to weaken, flag", "german" : "erlahmen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d59a8999384da5930ebe9" }, "english" : "filthy", "german" : "schnöden", "__v" : 0 }
+{ "_id" : { "$oid" : "568d59bf999384da5930ebea" }, "english" : "gloom", "german" : "dei Düsternis", "__v" : 0 }
+{ "_id" : { "$oid" : "568d59cc999384da5930ebeb" }, "english" : "jerk", "german" : "der Ruck", "__v" : 0 }
+{ "_id" : { "$oid" : "568d59df999384da5930ebec" }, "english" : "crooked", "german" : "schief", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5a18999384da5930ebed" }, "english" : "to hide", "german" : "verkneifen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5a2c999384da5930ebee" }, "english" : "bubble", "german" : "die Blase", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5a3b999384da5930ebef" }, "english" : "acorn", "german" : "die Eichel", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5a53999384da5930ebf0" }, "english" : "hippo", "german" : "das Nilpferd", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5a69999384da5930ebf1" }, "english" : "mortal enemy", "german" : "der Todfeind", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5a8c999384da5930ebf2" }, "english" : "amazement", "german" : "die Verblüffung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5a9d999384da5930ebf3" }, "english" : "admiration", "german" : "die Bewunderung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5ab2999384da5930ebf4" }, "english" : "skull", "german" : "der Schädel", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5ad5999384da5930ebf5" }, "english" : "to cry out", "german" : "schreien", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5aee999384da5930ebf6" }, "english" : "helpless", "german" : "ratlos", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5b01999384da5930ebf7" }, "english" : "to scrutinise", "german" : "mustern", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5b0c999384da5930ebf8" }, "english" : "dislike", "german" : "die Abneigung", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5b2b999384da5930ebf9" }, "english" : "incessantly", "german" : "unablässig", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5b60999384da5930ebfa" }, "english" : "fleeting", "german" : "flüchtige", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5b8c999384da5930ebfb" }, "english" : "discretion", "german" : "das Belieben", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5b9b999384da5930ebfc" }, "english" : "tabby", "german" : "getigerte", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5bac999384da5930ebfd" }, "english" : "to make", "german" : "ausmachen", "__v" : 0 }
+{ "_id" : { "$oid" : "568d5bba999384da5930ebfe" }, "english" : "applause", "german" : "der Beifall", "__v" : 0 }
+{ "_id" : { "$oid" : "5691120d4d1f0b596e11ca74" }, "english" : "to deny", "german" : "dementieren", "__v" : 0 }
+{ "_id" : { "$oid" : "569117844d1f0b596e11ca75" }, "english" : "essential", "german" : "wesentlich", "__v" : 0 }
+{ "_id" : { "$oid" : "569122614d1f0b596e11ca76" }, "english" : "involved", "german" : "beteiligt", "__v" : 0 }
+{ "_id" : { "$oid" : "569124c14d1f0b596e11ca77" }, "english" : "official", "german" : "der Beamte", "__v" : 0 }
+{ "_id" : { "$oid" : "5691253c4d1f0b596e11ca78" }, "english" : "accusation", "german" : "der Vorwurf", "__v" : 0 }
+{ "_id" : { "$oid" : "5691432a4d1f0b596e11ca79" }, "english" : "several", "german" : "etliche", "__v" : 0 }
+{ "_id" : { "$oid" : "569149f44d1f0b596e11ca7a" }, "english" : "conjecture", "german" : "die Vermutung", "__v" : 0 }
+{ "_id" : { "$oid" : "56914ae24d1f0b596e11ca7b" }, "english" : "to contradict", "german" : "widersprechen", "__v" : 0 }
+{ "_id" : { "$oid" : "56914b284d1f0b596e11ca7c" }, "english" : "harassment", "german" : "die Belästigung", "__v" : 0 }
+{ "_id" : { "$oid" : "56914ba54d1f0b596e11ca7d" }, "english" : "incidental", "german" : "nebenbei", "__v" : 0 }
+{ "_id" : { "$oid" : "56914bf94d1f0b596e11ca7e" }, "english" : "reality", "german" : "die Wirklichkeit", "__v" : 0 }
+{ "_id" : { "$oid" : "569159ce4d1f0b596e11ca7f" }, "english" : "to express", "german" : "äußern", "__v" : 0 }
+{ "_id" : { "$oid" : "569199e34d1f0b596e11ca80" }, "english" : "at the expense", "german" : "zu Lasten", "__v" : 0 }
+{ "_id" : { "$oid" : "56919b224d1f0b596e11ca81" }, "english" : "to break up, dissolve", "german" : "auflösen", "__v" : 0 }
+{ "_id" : { "$oid" : "5692377d4d1f0b596e11ca82" }, "english" : "campfire", "german" : "das Lagerfeuer", "__v" : 0 }
+{ "_id" : { "$oid" : "5692379b4d1f0b596e11ca83" }, "english" : "explanation, declaration", "german" : "die Erklärung", "__v" : 0 }
+{ "_id" : { "$oid" : "569237ad4d1f0b596e11ca84" }, "english" : "tax return", "german" : "die Steuererklärung", "__v" : 0 }
+{ "_id" : { "$oid" : "5692429a4d1f0b596e11ca85" }, "english" : "blueprint", "german" : "die Blaupause", "__v" : 0 }
+{ "_id" : { "$oid" : "569285c34d1f0b596e11ca86" }, "english" : "to outrage", "german" : "empören", "__v" : 0 }
+{ "_id" : { "$oid" : "569287f34d1f0b596e11ca87" }, "english" : "to finish", "german" : "ausklingen", "__v" : 0 }
