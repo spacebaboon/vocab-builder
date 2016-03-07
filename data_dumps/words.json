@@ -861,3 +861,16 @@
 { "_id" : { "$oid" : "5692429a4d1f0b596e11ca85" }, "english" : "blueprint", "german" : "die Blaupause", "__v" : 0 }
 { "_id" : { "$oid" : "569285c34d1f0b596e11ca86" }, "english" : "to outrage", "german" : "empören", "__v" : 0 }
 { "_id" : { "$oid" : "569287f34d1f0b596e11ca87" }, "english" : "to finish", "german" : "ausklingen", "__v" : 0 }
+{ "_id" : { "$oid" : "5692be5efaa1aa60937877d6" }, "english" : "fiction", "german" : "die Belletristik", "__v" : 0 }
+{ "_id" : { "$oid" : "5692bea2faa1aa60937877d7" }, "english" : "available", "german" : "verfügbar", "__v" : 0 }
+{ "_id" : { "$oid" : "56937d1dfaa1aa60937877d8" }, "english" : "defences", "german" : "die Befestigung", "__v" : 0 }
+{ "_id" : { "$oid" : "5693fce7a4c52af3aee2f787" }, "english" : "abbreviation", "german" : "die Abkürzung", "__v" : 0 }
+{ "_id" : { "$oid" : "5693fcf2a4c52af3aee2f788" }, "english" : "hug", "german" : "die Umarmung", "__v" : 0 }
+{ "_id" : { "$oid" : "56941c90a4c52af3aee2f789" }, "english" : "riot", "german" : "die Ausschreitung", "__v" : 0 }
+{ "_id" : { "$oid" : "56942d9aa4c52af3aee2f78a" }, "english" : "commute", "german" : "das Pendeln", "__v" : 0 }
+{ "_id" : { "$oid" : "569574b2a4c52af3aee2f78b" }, "english" : "mostly", "german" : "meist", "__v" : 0 }
+{ "_id" : { "$oid" : "5697f035a4c52af3aee2f78c" }, "english" : "weather forecast", "german" : "die Wettervorhersage", "__v" : 0 }
+{ "_id" : { "$oid" : "5697f06ca4c52af3aee2f78d" }, "english" : "humidity", "german" : "die Luftfeuchtigkeit", "__v" : 0 }
+{ "_id" : { "$oid" : "569fc95c10f5e91c4ab14de2" }, "english" : "not necessarily", "german" : "nicht unbedingt", "__v" : 0 }
+{ "_id" : { "$oid" : "56a73bf99ce5748bc8da787d" }, "english" : "to acquire", "german" : "erwerben", "__v" : 0 }
+{ "_id" : { "$oid" : "56a748e49ce5748bc8da787f" }, "english" : "food intolerance", "german" : "die Nahrungsmittelunverträglichkeit", "__v" : 0 }
