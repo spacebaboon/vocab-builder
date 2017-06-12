@@ -874,3 +874,47 @@
 { "_id" : { "$oid" : "569fc95c10f5e91c4ab14de2" }, "english" : "not necessarily", "german" : "nicht unbedingt", "__v" : 0 }
 { "_id" : { "$oid" : "56a73bf99ce5748bc8da787d" }, "english" : "to acquire", "german" : "erwerben", "__v" : 0 }
 { "_id" : { "$oid" : "56a748e49ce5748bc8da787f" }, "english" : "food intolerance", "german" : "die Nahrungsmittelunverträglichkeit", "__v" : 0 }
+{ "_id" : { "$oid" : "57440cf3ae6387e20951414a" }, "english" : "to cause", "german" : "anrichten", "__v" : 0 }
+{ "_id" : { "$oid" : "57440d15ae6387e20951414b" }, "english" : "damage", "german" : "der Schaden", "__v" : 0 }
+{ "_id" : { "$oid" : "57440d27ae6387e20951414c" }, "english" : "to damage", "german" : "schädigen", "__v" : 0 }
+{ "_id" : { "$oid" : "57440d30ae6387e20951414d" }, "english" : "to damage", "german" : "beschädigen", "__v" : 0 }
+{ "_id" : { "$oid" : "5793348f0dbf3ecd68516b49" }, "english" : "alleged, suspected", "german" : "mutmaßliche", "__v" : 0 }
+{ "_id" : { "$oid" : "579334bd0dbf3ecd68516b4a" }, "english" : "to unlock", "german" : "freischalten", "__v" : 0 }
+{ "_id" : { "$oid" : "579334ef0dbf3ecd68516b4b" }, "english" : "lock", "german" : "das Schloss", "__v" : 0 }
+{ "_id" : { "$oid" : "5793cc110dbf3ecd68516b4c" }, "english" : "mercy", "german" : "die Gnade", "__v" : 0 }
+{ "_id" : { "$oid" : "5793cc1d0dbf3ecd68516b4d" }, "english" : "merciless", "german" : "gnadenlos", "__v" : 0 }
+{ "_id" : { "$oid" : "5793d0060dbf3ecd68516b4e" }, "english" : "detail", "german" : "die Einzelheit", "__v" : 0 }
+{ "_id" : { "$oid" : "5793ddd80dbf3ecd68516b4f" }, "english" : "infectious", "german" : "ansteckend", "__v" : 0 }
+{ "_id" : { "$oid" : "5793ee160dbf3ecd68516b50" }, "english" : "crime", "german" : "das Verbrechen", "__v" : 0 }
+{ "_id" : { "$oid" : "5794513c0dbf3ecd68516b51" }, "english" : "controversial", "german" : "umstritten", "__v" : 0 }
+{ "_id" : { "$oid" : "57960dce0dbf3ecd68516b52" }, "english" : "medium sized", "german" : "mittelstänsiche", "__v" : 0 }
+{ "_id" : { "$oid" : "57960f140dbf3ecd68516b53" }, "english" : "outstanding", "german" : "hervorragend", "__v" : 0 }
+{ "_id" : { "$oid" : "57960f9b0dbf3ecd68516b54" }, "english" : "representation", "german" : "die Vertretung", "__v" : 0 }
+{ "_id" : { "$oid" : "579612eb0dbf3ecd68516b55" }, "english" : "perception", "german" : "die Wahrnehmung", "__v" : 0 }
+{ "_id" : { "$oid" : "579901010dbf3ecd68516b56" }, "english" : "satisfactory", "german" : "befriedigend", "__v" : 0 }
+{ "_id" : { "$oid" : "579903c30dbf3ecd68516b57" }, "english" : "sufficient", "german" : "ausreichend", "__v" : 0 }
+{ "_id" : { "$oid" : "57990ad10dbf3ecd68516b58" }, "english" : "nationality", "german" : "die Staatsangehörigkeit", "__v" : 0 }
+{ "_id" : { "$oid" : "57990cfd0dbf3ecd68516b59" }, "english" : "other", "german" : "sonstige", "__v" : 0 }
+{ "_id" : { "$oid" : "57990fc70dbf3ecd68516b5a" }, "english" : "anyway", "german" : "sowieso", "__v" : 0 }
+{ "_id" : { "$oid" : "579914d60dbf3ecd68516b5b" }, "english" : "necessary", "german" : "notwendig", "__v" : 0 }
+{ "_id" : { "$oid" : "579919e50dbf3ecd68516b5c" }, "english" : "several", "german" : "etliche", "__v" : 0 }
+{ "_id" : { "$oid" : "5799da1a0dbf3ecd68516b5d" }, "english" : "isolated", "german" : "vereinzelt", "__v" : 0 }
+{ "_id" : { "$oid" : "57a18a890dbf3ecd68516b5e" }, "english" : "advantage", "german" : "der Vorteil", "__v" : 0 }
+{ "_id" : { "$oid" : "57a18a8f0dbf3ecd68516b5f" }, "english" : "disadvantage", "german" : "der Nachteil", "__v" : 0 }
+{ "_id" : { "$oid" : "57a255240dbf3ecd68516b60" }, "english" : "to avoid", "german" : "meiden", "__v" : 0 }
+{ "_id" : { "$oid" : "57a6dddd0dbf3ecd68516b61" }, "english" : "recognition", "german" : "die Anerkennung", "__v" : 0 }
+{ "_id" : { "$oid" : "57aa205c0dbf3ecd68516b62" }, "english" : "to succeed", "german" : "gelingen", "__v" : 0 }
+{ "_id" : { "$oid" : "57aa25320dbf3ecd68516b63" }, "english" : "to spare", "german" : "schonen", "__v" : 0 }
+{ "_id" : { "$oid" : "57aa28630dbf3ecd68516b64" }, "english" : "to cancel", "german" : "abbrechen", "__v" : 0 }
+{ "_id" : { "$oid" : "57aa28690dbf3ecd68516b65" }, "english" : "cancelled", "german" : "abgebrochen", "__v" : 0 }
+{ "_id" : { "$oid" : "57aac35f0dbf3ecd68516b66" }, "english" : "to call off / cancel", "german" : "absagen", "__v" : 0 }
+{ "_id" : { "$oid" : "57aac3650dbf3ecd68516b67" }, "english" : "cancelled", "german" : "abgesagt", "__v" : 0 }
+{ "_id" : { "$oid" : "57b803740dbf3ecd68516b68" }, "english" : "to deny", "german" : "versagen", "__v" : 0 }
+{ "_id" : { "$oid" : "57b9c0db0dbf3ecd68516b69" }, "english" : "sensitive", "german" : "empfindlich", "__v" : 0 }
+{ "_id" : { "$oid" : "57b9c0fc0dbf3ecd68516b6a" }, "english" : "to imagine", "german" : "sich etw. einbilden", "__v" : 0 }
+{ "_id" : { "$oid" : "57b9e1150dbf3ecd68516b6b" }, "english" : "to resonate", "german" : "mitschwingen", "__v" : 0 }
+{ "_id" : { "$oid" : "57f9f8c40dbf3ecd68516b6c" }, "english" : "future", "german" : "künftig", "__v" : 0 }
+{ "_id" : { "$oid" : "57f9f8c90dbf3ecd68516b6d" }, "english" : "mocked", "german" : "gespottet", "__v" : 0 }
+{ "_id" : { "$oid" : "57f9f8e60dbf3ecd68516b6e" }, "english" : "allegedly", "german" : "angeblich", "__v" : 0 }
+{ "_id" : { "$oid" : "57f9f9b10dbf3ecd68516b6f" }, "english" : "blueprint", "german" : "die Blaupause", "__v" : 0 }
+{ "_id" : { "$oid" : "57f9f9d10dbf3ecd68516b70" }, "english" : "grumble", "german" : "schimpfen", "__v" : 0 }
